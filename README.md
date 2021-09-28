@@ -22,6 +22,7 @@ don't expect much because most of the drivers are a bit buggy
 - [x] External USB headphone
 - [x] USB 2.0
 - [x] USB 3.0
+- [x] HDMI port 
 - [x] Adjust brightness
 - [x] **Fn feature** 
     + **Fn + F1**: Not Work
@@ -40,3 +41,12 @@ don't expect much because most of the drivers are a bit buggy
 - [x] Ethernet 
 - [x] Power Management 
 - [x] iCloud 
+
+# Not Working
+- still in development stage allows for bugs
+- ETC
+
+# Contact
+you can contact me if there is a problem with my configuration
+
+Imassage : (hakyluck@icloud.com)
