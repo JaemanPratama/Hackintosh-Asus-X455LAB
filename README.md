@@ -35,7 +35,7 @@ don't expect much because most of the drivers are a bit buggy
     + **Fn + F10/F11/F12**: Control Volume
 - [x] Sleep power
 - [x] Battery Indicator (little bug in battery percentage)
-- [x] Trackpap
+- [x] Trackpad
 - [x] Temperature reading
 - [x] System Fan Control
 - [x] Ethernet 
