@@ -59,13 +59,13 @@ Imassage : (hakyluck@icloud.com)
 
 ## Creating the USB Installer
 
-Download [Mac Os](https://www.olarila.com/topic/6278-hackintosh-olarila-vanilla-images/)
+- Download [Mac Os](https://www.olarila.com/topic/6278-hackintosh-olarila-vanilla-images/)
 
 After Download, extract image
 
 ![yK5PK5o](https://user-images.githubusercontent.com/89202419/136668933-b00b67b5-77b8-4751-8178-3b6bf406fec9.png)
 
-Download [Balena Etcher](https://www.balena.io/etcher/)
+- Download [Balena Etcher](https://www.balena.io/etcher/)
 
 Open app and select extracted Image
 
@@ -79,7 +79,7 @@ Burn Image
 
 ![tO0uP9g](https://user-images.githubusercontent.com/89202419/136669114-aa4ff0b2-30b7-4fbe-b48a-3451cc8b6846.png)
 
-Download [MiniTool Partition Wizard](https://www.partitionwizard.com/download.html)
+- Download [MiniTool Partition Wizard](https://www.partitionwizard.com/download.html)
 
 Open MiniTool Partition Wizard 
 
@@ -97,7 +97,7 @@ Then now click Apply (see the top left corner)
 
 ![BootEntry-windows-4](https://user-images.githubusercontent.com/89202419/136669439-2b6f59b2-2d54-4bd7-87c9-d7a5694b7599.png)
 
-Download [Explorer ++](https://explorerplusplus.com/download)
+- Download [Explorer ++](https://explorerplusplus.com/download)
 
 Now Extract the file "Explorer++ 64Bit ZIP" which was downloaded earlier and you will get the file "Explorer++.exe" in it. Run as Administrator. Then navigate to the storage with the letter G earlier (the letter we applied earlier via the Mini Tool Partition Wizard)
 
@@ -105,11 +105,13 @@ Now Extract the file "Explorer++ 64Bit ZIP" which was downloaded earlier and you
 
 and delete the efi folder and replace it with the [efi on this github](https://github.com/Semutbanyak/ASUS-A455LA-WX668D-OPENCORE.git)
 
-Boot from USB
+- Boot from USB !
+
+![Boot-Asus-Laptop-1](https://user-images.githubusercontent.com/89202419/136670142-10bce90b-9dee-4459-9d7a-8db794892335.jpg)
 
 Use a boot key(F12, esc, etc)
 
-Select Boot MacOS Install from Olarila Image 
+And Select Boot MacOS Install from Olarila Image 
 
 ## BIOS Configuration
 
@@ -122,4 +124,27 @@ Graphics Configuration -> DVMT Pre-Allocation | 64M
 USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
 SATA Mode | AHCI
 Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
+
+- Formatting HDD/SSD
+       
+Go to Disk Utility, "View"
+
+![N0LKAr2](https://user-images.githubusercontent.com/89202419/136670251-b51f740f-8712-4cba-8d71-330cfe5f0e88.png)
+
+Select "Show All Devices"
+
+![ZX6V8Yh](https://user-images.githubusercontent.com/89202419/136670291-d9952e1e-3ac4-45b0-9c9b-12a9bee8864d.png)
+
+Format SSD, use APFS, GUID and go to installation
+
+![LRifw1V](https://user-images.githubusercontent.com/89202419/136670330-73b55bad-3908-400b-9d0f-f5cb8841b00c.png)
+
+After installation, boot from USB stick again, use boot key and select your HDD/SSD with system installed 
+
+- Moving OpenCore from USB to macOS Drive
+
+you can folow this guide https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb
+
+after Moving OpenCore from USB to macOS Drive eject your flashdisk and reboot your computer
+
 
