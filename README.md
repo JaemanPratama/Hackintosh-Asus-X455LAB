@@ -55,7 +55,7 @@ Imassage : (hakyluck@icloud.com)
 
 **Contents**:
 - [Creating the USB Installer](#creating-the-usb-installer)
-- (Bios Configuration](#bios-Configuration)
+- [BIOS Configuration](#bios-configuration)
 
 ## Creating the USB Installer
 
@@ -103,9 +103,15 @@ Now Extract the file "Explorer++ 64Bit ZIP" which was downloaded earlier and you
 
 ![BootEntry-windows-8](https://user-images.githubusercontent.com/89202419/136669494-9ccf2e28-b55f-4aa5-b8e2-806177dad733.png)
 
-and delete the efi folder and replace it with the [efi on this github]()
+and delete the efi folder and replace it with the [efi on this github](https://github.com/Semutbanyak/ASUS-A455LA-WX668D-OPENCORE.git)
 
-**BIOS Configuration**
+Boot from USB
+
+Use a boot key(F12, esc, etc)
+
+Select Boot MacOS Install from Olarila Image 
+
+## BIOS Configuration
 
 Bios Config | Setting 
 :---:| :---:
