@@ -13,6 +13,12 @@ don't expect much because most of the drivers are a bit buggy
 - BIOS : v300 (2016/12/2) American Megatrends Inc
 - RAM : 4 + 2 GB 1600 MHz DDR3
 
+# MacOS version that has been running successfully
+- Catalina (Tested, Opencore)
+- Mojave (Tested, Opencore)
+- High Sierra (Tested, Opencore)
+- Bigsur (Tested, Opencore)
+
 # WORKING:
 - [x] **Graphics HD 5500**
 - [x] **Sound**
