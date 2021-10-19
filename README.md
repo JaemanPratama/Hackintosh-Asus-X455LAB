@@ -48,7 +48,62 @@ don't expect much because most of the drivers are a bit buggy
 - [x] Power Management 
 - [x] iCloud 
 
+### BIOS Settings
+
+Bios Config | Setting 
+:---:| :---:
+Security -> Secure Boot | Disabled
+Intel Virtualization    | Enabled OK / Disabled if you have issues
+VT-d | Disabled / Enabled with boot-args "dart=0"
+Graphics Configuration -> DVMT Pre-Allocation | 64M / default 32M but need pre-alloc patches
+USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
+SATA Mode | AHCI
+Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
+
+**DSDT Patches**
+---------------
+
+Patches are from Rehabman Laptop Patches repo Source :  http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master
+
+- ADBG Error (Only use it if u get ADBG Error)
+- fix _WAK  Arg0 v2
+- fix HPET
+- SMBUS fix
+- IRQ fix
+- RTC fix
+- Rename GFX0 to IGPU
+- And for the Brightness key replace method Q0E & Q0F with this code :
+
+```c
+Method (_Q0E, 0, NotSerialized)  
+{
+    If (ATKP)
+    {
+        \_SB.ATKD.IANE (0x20)
+    }
+}
+Method (_Q0F, 0, NotSerialized)
+{
+    If (ATKP)
+    {
+        \_SB.ATKD.IANE (0x10)
+    }
+}
+```
+--------------------
+
+-----------------------
+ 
+
 # Not Working
-- still in development stage allows for bugs
+- AirDrop, Handoff, Continuity, Because this chipset and module not supported
 - ETC
 
+### Not Tested?
+
+- HDMI
+- Etc..
+
+### Special Thanks and Credits to :
+
+[Apple](https://www.apple.com) | [Acidanthera](https://github.com/acidanthera) | [Rehabman](https://github.com/RehabMan/Laptop-DSDT-Patch) | [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) |  [EmlyDinesh](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver-mac-os-x) | [Piker R. Alpha](https://github.com/Piker-Alpha/ssdtPRGen.sh) | [InsanelyMac](https://www.insanelymac.com/forum), [Olarila](http://olarila.com/forum) and [OSXLatitude](https://osxlatitude.com/forums) Forum | <b>And Other Developers</b> who aren't mentioned.
