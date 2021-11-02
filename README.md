@@ -40,13 +40,15 @@ don't expect much because most of the drivers are a bit buggy
     + **Fn + F9**: On/Off Touchpad
     + **Fn + F10/F11/F12**: Control Volume
 - [x] Sleep power
-- [x] Battery Indicator (little bug in battery percentage)
-- [x] Trackpad
+- [x] Battery Indicator 
+- [x] Trackpad (with gesture)
 - [x] Temperature reading
-- [x] System Fan Control
+- [x] System Fan Read
 - [x] Ethernet 
 - [x] Power Management 
 - [x] iCloud 
+- [x] Airplay
+- [x] night shift
 
 ### BIOS Settings
 
@@ -60,41 +62,6 @@ USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
 SATA Mode | AHCI
 Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
 
-**DSDT Patches**
----------------
-
-Patches are from Rehabman Laptop Patches repo Source :  http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master
-
-- ADBG Error (Only use it if u get ADBG Error)
-- fix _WAK  Arg0 v2
-- fix HPET
-- SMBUS fix
-- IRQ fix
-- RTC fix
-- Rename GFX0 to IGPU
-- And for the Brightness key replace method Q0E & Q0F with this code :
-
-```c
-Method (_Q0E, 0, NotSerialized)  
-{
-    If (ATKP)
-    {
-        \_SB.ATKD.IANE (0x20)
-    }
-}
-Method (_Q0F, 0, NotSerialized)
-{
-    If (ATKP)
-    {
-        \_SB.ATKD.IANE (0x10)
-    }
-}
-```
---------------------
-
------------------------
- 
-
 # Not Working
 - AirDrop, Handoff, Continuity, Because this chipset and module not supported
 - ETC
@@ -102,6 +69,8 @@ Method (_Q0F, 0, NotSerialized)
 ### Not Tested?
 
 - HDMI
+- Sidecar
+- sd card 
 - Etc..
 
 ### Special Thanks and Credits to :
