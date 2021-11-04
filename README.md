@@ -1,6 +1,5 @@
 # Running Mac Os Catalina On ASUS A455L
 
-don't expect much because most of the drivers are a bit buggy
 ![Asus-A455L-3](https://user-images.githubusercontent.com/89202419/135137658-aff972ab-1372-42f3-9417-2e3b4262a94c.jpg)
 
 # Description of laptop:
@@ -31,7 +30,7 @@ don't expect much because most of the drivers are a bit buggy
 - [x] HDMI port 
 - [x] Adjust brightness
 - [x] **Fn feature** 
-    + **Fn + F1**: Not Work
+    + **Fn + F1**: Sleep
     + **Fn + F2** : Not Work
     + **Fn + F3**: Not Work
     + **Fn + F4** : Not Work
@@ -49,18 +48,6 @@ don't expect much because most of the drivers are a bit buggy
 - [x] iCloud 
 - [x] Airplay
 - [x] night shift
-
-### BIOS Settings
-
-Bios Config | Setting 
-:---:| :---:
-Security -> Secure Boot | Disabled
-Intel Virtualization    | Enabled OK / Disabled if you have issues
-VT-d | Disabled / Enabled with boot-args "dart=0"
-Graphics Configuration -> DVMT Pre-Allocation | 64M / default 32M but need pre-alloc patches
-USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
-SATA Mode | AHCI
-Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
 
 # Not Working
 - AirDrop, Handoff, Continuity, Because this chipset and module not supported
