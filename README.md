@@ -1,6 +1,6 @@
-# Running Mac Os Catalina On ASUS A455L
+# Running Mac Os BigSur On ASUS A455L
 
-![Asus-A455L-3](https://user-images.githubusercontent.com/89202419/135137658-aff972ab-1372-42f3-9417-2e3b4262a94c.jpg)
+![Screen Shot](https://user-images.githubusercontent.com/89202419/143906388-c3aee38c-2d1e-4c7f-bd28-7feb0934fe07.png)
 
 # Description of laptop:
 - Intel® Core™ i3-5005U - 5th generation Intel ® Core ™ i3 processors - Broadwell
