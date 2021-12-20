@@ -1,5 +1,7 @@
 # Menjalankan Mac OS Catalina pada Laptop ASUS A455L Series
 
+![Jepretan Layar 2021-12-21 pukul 01 23 56](https://user-images.githubusercontent.com/89202419/146814811-5e7d4670-bdfb-430b-85d8-d64acce4d435.png)
+
 # Deskripsi laptop:
 - Intel® Core™ i3-5005U - generasi 5 - Broadwell
 - Intel® HD Graphics 5500 - 1536 Mb 
@@ -25,17 +27,17 @@
 - [x] External USB headphone
 - [x] USB 2.0
 - [x] USB 3.0
-- [x] HDMI port 
+- [x] port HDMI  
 - [x] Adjust brightness
 - [x] **Fn feature** 
     + **Fn + F1**: Sleep
     + **Fn + F2** : -
     + **Fn + F3**: -
     + **Fn + F4** : -
-    + **Fn + F5/F6/F7**: Control brightness
+    + **Fn + F5/F6/F7**: Mengontrol Kecerahan
     + **Fn + F8**: -
-    + **Fn + F9**: On/Off Touchpad
-    + **Fn + F10/F11/F12**: Control Volume
+    + **Fn + F9**: Mematikan Atau Menyalakan Touchpad
+    + **Fn + F10/F11/F12**: Mengontrol Suara
 - [x] Sleep power
 - [x] Indikator baterai
 - [x] Touchpad (Dengan gesture)
@@ -56,3 +58,7 @@
 - sd card 
 - Lainnya..
 
+# Terimakasih Kepada
+- [Zachary Riedlshah](https://github.com/zacharyrs/GL551JW-Hackintosh/tree/master/patches) Untuk Tombol Kunci FN
+- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) Untuk Bootloader
+- Dan lainnya
