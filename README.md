@@ -1,6 +1,6 @@
-# Menjalankan Mac OS Catalina pada Laptop ASUS A455L Series
+# Menjalankan Mac OS Catalina pada Laptop ASUS A455L Series!
+![Jepretan Layar 2021-12-21 pukul 01 31 23](https://user-images.githubusercontent.com/89202419/146815701-95790102-3b60-4c95-9e76-d0e6fb2764e7.png)
 
-![Jepretan Layar 2021-12-21 pukul 01 23 56](https://user-images.githubusercontent.com/89202419/146814811-5e7d4670-bdfb-430b-85d8-d64acce4d435.png)
 
 # Deskripsi laptop:
 - Intel® Core™ i3-5005U - generasi 5 - Broadwell
