@@ -23,8 +23,12 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 
 - [x] Graphics Acceleration.
 - [x] CPU power management.
+- [x] Night Sift
+- [x] Airplay  
 - [x] Pembacaan baterai.
+- [x] Pembacaan Fan 
 - [x] Keyboard & Trackpad dengan Beberapa Gesture.
+- [x] Fn Key 
 - [x] Wi-Fi.
 - [x] USB ports.
 - [x] Web camera.
@@ -38,6 +42,12 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 ## :x: Not working:
 
 - [ ] AirDrop, Handoff, Continuity, Karena chipset dan modul ini tidak didukung
+
+## ❗ Tidak Di Uji:
+
+- [ ] Port Kartu SD 
+- [ ] Port VGA
+- [ ] Side car
 
 :warning: **WARNING:** 
 Bluetooth Terkadang Tidak Jalan Solusinya adalah Merestart / Mensleepkan Komputer !!
@@ -99,6 +109,15 @@ Intel Power Gadget
 
 ![Jepretan Layar 2021-12-28 pukul 00 16 44](https://user-images.githubusercontent.com/89202419/147493552-0edde29c-ee4f-4f00-9b6b-3a1ec7e43e93.png)
 
+### Terimakasih Kepada :
 
+- [Acidanthera](https://github.com/acidanthera)
+- [Rehabman](https://github.com/RehabMan)
+- [EmlyDinesh](https://github.com/EMlyDinEsHMG)
+- [InsanelyMac](https://www.insanelymac.com)
+- [Olarila](http://olarila.com)
+- [OSXLatitude](https://osxlatitude.com)
+- [Hackintosh Lover](https://t.me/HackintoshLover)
+- Dan Developer Lainnya
 
 
