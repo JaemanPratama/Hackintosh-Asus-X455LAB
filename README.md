@@ -1,64 +1,98 @@
-# Menjalankan Mac OS Catalina pada Laptop ASUS A455L Series!
-![Jepretan Layar 2021-12-21 pukul 01 31 23](https://user-images.githubusercontent.com/89202419/146815701-95790102-3b60-4c95-9e76-d0e6fb2764e7.png)
+# ASUS A455LA WX668D Opencore Hackintosh
+
+:warning: **PERINGATAN:**
+Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortania.github.io/getting-started/) sebelum melakukan apa pun. Saya tidak bertanggung jawab atas kerusakan apa pun. Konfigurasi OpenCore ini dioptimalkan untuk perangkat keras khusus saya, jadi harap gunakan hanya sebagai referensi atau jika Anda memiliki perangkat keras yang sama/serupa.
+
+![Jepretan Layar 2021-12-27 pukul 23 09 39](https://user-images.githubusercontent.com/89202419/147488998-696ec7b1-47cc-405e-b278-f1a8d87ddb91.png)
+
+## :computer: Hardware:
+
+| **Category**   | **Component**                 		|	**Note**			 				      |
+|----------------|--------------------------------------|--------------------------------------------|
+|**CPU**		 |2.0GHz Intel Core i3-5005U	 		|										      |
+|**GPU**		 |Intel HD 5500				     		|										      |
+|**RAM**         |4 + 2 GB 1600 MHz DDR3               		|		Upgrade Ram								      |
+|**HDD**         |500 GB SATA	 		| Ganti Ke SSD										      |
+|**Layar**     |14 Inch HD LED		 		|										      |![image](https://user-images.githubusercontent.com/89202419/147493044-6d38f73e-a71f-4bd9-89b4-9f26500fb332.png)
+
+|**Wi-Fi/BT**    |AR9565/QCA956X	  			     		|	      |
+|**Ethernet**    |Realtek RTL8111				 		|										      |
+|**Audio** 		 |Conexant CX20751/2				 		|28 untuk ID tata letak tampaknya berfungsi paling baik|
+|**Input**       |PS2 Keyboard & Focaltech Touchpad |										      |
+
+## :white_check_mark: Working:
+
+- [x] Graphics Acceleration.
+- [x] CPU power management.
+- [x] Pembacaan baterai.
+- [x] Keyboard & Trackpad dengan Beberapa Gesture.
+- [x] Wi-Fi.
+- [x] USB ports.
+- [x] Web camera.
+- [x] HDMI video dan audio output.
+- [x] Ethernet.
+- [x] Audio.
+- [x] Mikrofon internal.
+- [x] iCloud dan App Store.
+- [x] iMessage dan FaceTime.
+
+## :x: Not working:
+
+- [ ] AirDrop, Handoff, Continuity, Karena chipset dan modul ini tidak didukung
+
+:warning: **WARNING:** 
+Bluetooth Terkadang Tidak Jalan Solusinya adalah Merestart / Mensleepkan Komputer !!
+
+Jika Anda menginginkan Wi-Fi dan Bluetooth yang berfungsi di luar kotak, saya sarankan Anda mencari rekan nirkabel Broadcom bermerek Apple.
+
+saya benar-benar tidak memiliki masalah menjalankan macOS dengan konfigurasi ini, ini berjalan seperti pesona. Mungkin satu-satunya hal yang bisa saya tingkatkan adalah waktu boot. Ini tidak terlalu lambat
+
+### Screenshots 
+
+Grafik / Tampilan
+
+![Jepretan Layar 2021-12-27 pukul 23 44 52](https://user-images.githubusercontent.com/89202419/147491857-3c882c6c-b7ac-4bac-9833-eaf0817c86dc.png)
+
+Kamera
+
+![Jepretan Layar 2021-12-27 pukul 23 44 58](https://user-images.githubusercontent.com/89202419/147491928-7bca1e1a-a9d6-45fc-bc2a-e12673a6b8d1.png)
+
+Kartu Ethernet 
+
+![Jepretan Layar 2021-12-27 pukul 23 45 03](https://user-images.githubusercontent.com/89202419/147492008-321e210b-65a5-4b74-81fc-48b50abeb192.png)
+
+Baterai / Daya
+
+![Jepretan Layar 2021-12-27 pukul 23 44 44](https://user-images.githubusercontent.com/89202419/147492106-0a551d3a-a528-4280-a414-7035addb199e.png)
+
+PCI
+
+![Jepretan Layar 2021-12-27 pukul 23 45 45](https://user-images.githubusercontent.com/89202419/147492205-0af77aca-f86e-4cb4-8be7-b21a13ef07d5.png)
+
+ Pembakaran Disk
+ 
+ ![Jepretan Layar 2021-12-27 pukul 23 45 51](https://user-images.githubusercontent.com/89202419/147492289-afb6441d-eb83-4ea4-9454-974ebe401ed1.png)
+
+ Audio
+
+![Jepretan Layar 2021-12-27 pukul 23 59 12](https://user-images.githubusercontent.com/89202419/147492438-21f726ad-d471-4920-aac3-7f43e55dfce3.png)
 
 
-# Deskripsi laptop:
-- Intel® Core™ i3-5005U - generasi 5 - Broadwell
-- Intel® HD Graphics 5500 - 1536 Mb 
-- Wireless Network Adapter + Bluetooth 4,0 : AR956X/QCA9565
-- Realtek RTL8168GU/8111GU PCI Express Gigabit Ethernet
-- Generic AHCI Controller: HDD SATA 500 GB
-- Wildcat Point-LP High Definition Audio Controller : based on CX20751/2
-- BIOS : v300 (2016/12/2) American Megatrends Inc
-- RAM : 4 + 2 GB 1600 MHz DDR3
+ ![Jepretan Layar 2021-12-27 pukul 23 47 39](https://user-images.githubusercontent.com/89202419/147492462-e643e253-12fd-46c5-aca1-cc8b7416543c.png)
 
-# Versi MacOS yang telah berhasil dijalankan
-- Catalina (Tested, Opencore)
-- Mojave (Tested, Opencore)
-- High Sierra (Tested, Opencore)
-- Bigsur (Tested, Opencore)
+Sata / Sata Express
 
-# WORKING:
-- [x] **Graphics HD 5500**
-- [x] **Suara**
-- [x] **WiFi**
-- [x] **Bluetooth** 
-- [x] Apple Store
-- [x] External USB headphone
-- [x] USB 2.0
-- [x] USB 3.0
-- [x] port HDMI  
-- [x] Adjust brightness
-- [x] **Fn feature** 
-    + **Fn + F1**: Sleep
-    + **Fn + F2** : -
-    + **Fn + F3**: -
-    + **Fn + F4** : -
-    + **Fn + F5/F6/F7**: Mengontrol Kecerahan
-    + **Fn + F8**: -
-    + **Fn + F9**: Mematikan Atau Menyalakan Touchpad
-    + **Fn + F10/F11/F12**: Mengontrol Suara
-- [x] Sleep power
-- [x] Indikator baterai
-- [x] Touchpad (Dengan gesture)
-- [x] Pembacaan Temperature 
-- [x] Ethernet 
-- [x] Power Management 
-- [x] iCloud 
-- [x] Airplay
-- [x] night shift
+![Jepretan Layar 2021-12-27 pukul 23 46 00](https://user-images.githubusercontent.com/89202419/147492671-71d7eabe-74dc-4fe8-8d43-9f51c81643a4.png)
 
-# Tidak Bekerja
-- AirDrop, Handoff, Continuity, Karena chipset dan modul ini tidak didukung
+ USB
+ 
+ ![Jepretan Layar 2021-12-27 pukul 23 46 13](https://user-images.githubusercontent.com/89202419/147492769-03435186-0457-4bb0-a424-59207f3edd94.png)
 
-### Tidak Di Uji?
+Jaringan
 
-- HDMI
-- Sidecar
-- sd card 
-- Lainnya..
+![Jepretan Layar 2021-12-27 pukul 23 46 28](https://user-images.githubusercontent.com/89202419/147492937-5a2e7f71-6fdd-4d87-8928-a391dcd0012e.png)
 
-# Terimakasih Kepada
-- [Zachary Riedlshah](https://github.com/zacharyrs/GL551JW-Hackintosh/tree/master/patches) Untuk Tombol Kunci FN
-- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) Untuk Bootloader
-- Dan lainnya
+Sensor
+
+![Jepretan Layar 2021-12-27 pukul 23 46 41](https://user-images.githubusercontent.com/89202419/147492965-22924fc8-1c60-4e10-8d64-36c916405619.png)
+
