@@ -38,6 +38,14 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] Mikrofon internal.
 - [x] iCloud dan App Store.
 - [x] iMessage dan FaceTime.
+- [x] Dual boot dengan Windows / Linux 
+
+# Versi MacOS yang telah berhasil dijalankan
+- Catalina (Tested, Opencore)
+- Mojave (Tested, Opencore)
+- High Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
+- Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
+- Bigsur (Tested, Opencore)
 
 ## :x: Not working:
 
