@@ -13,8 +13,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 |**GPU**		 |Intel HD 5500				     		|										      |
 |**RAM**         |4 + 2 GB 1600 MHz DDR3               		|		Upgrade Ram								      |
 |**HDD**         |500 GB SATA	 		| Ganti Ke SSD										      |
-|**Layar**     |14 Inch HD LED		 		|										      |![image](https://user-images.githubusercontent.com/89202419/147493044-6d38f73e-a71f-4bd9-89b4-9f26500fb332.png)
-
+|**Layar**     |14 Inch HD LED		 		|										      |
 |**Wi-Fi/BT**    |AR9565/QCA956X	  			     		|	      |
 |**Ethernet**    |Realtek RTL8111				 		|										      |
 |**Audio** 		 |Conexant CX20751/2				 		|28 untuk ID tata letak tampaknya berfungsi paling baik|
