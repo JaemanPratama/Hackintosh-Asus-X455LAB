@@ -40,12 +40,13 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] iMessage dan FaceTime.
 - [x] Dual boot dengan Windows / Linux 
 
-# Versi MacOS yang telah berhasil dijalankan
-- Catalina (Tested, Opencore)
-- Mojave (Tested, Opencore)
-- High Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
-- Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
-- Bigsur (Tested, Opencore)
+## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
+- [x] Catalina (Tested, Opencore)
+- [x] Mojave (Tested, Opencore)
+- [x] High Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
+- [x] Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
+- [x] Bigsur (Tested, Opencore)
+- [x] Monterey (Tested, Opencore) (Wifi / BT Tidak Bisa jalan)
 
 ## :x: Not working:
 
