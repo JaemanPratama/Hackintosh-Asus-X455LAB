@@ -12,11 +12,11 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 |**CPU**		 |2.0GHz Intel Core i3-5005U	 		|										      |
 |**GPU**		 |Intel HD 5500				     		|										      |
 |**RAM**         |4 + 2 GB 1600 MHz DDR3               		|		Upgrade Ram								      |
-|**HDD**         |500 GB SATA	 		| Ganti Ke SSD										      |
+|**HDD**         |500 GB SATA	 		| Ganti Ke SSD	Untuk Pengalaman Yang Lebih Baik									      |
 |**Layar**     |14 Inch HD LED		 		|										      |
 |**Wi-Fi/BT**    |AR9565/QCA956X	  			     		|	      |
 |**Ethernet**    |Realtek RTL8111				 		|										      |
-|**Audio** 		 |Conexant CX20751/2				 		|28 untuk ID tata letak tampaknya berfungsi paling baik|
+|**Audio** 		 |Conexant CX20751/2				 		|28 / 21 untuk ID tata letak tampaknya berfungsi paling baik|
 |**Input**       |PS2 Keyboard & Focaltech Touchpad |										      |
 
 ## :white_check_mark: Working:
