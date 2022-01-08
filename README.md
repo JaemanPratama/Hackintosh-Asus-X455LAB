@@ -3,7 +3,7 @@
 :warning: **PERINGATAN:**
 Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortania.github.io/getting-started/) sebelum melakukan apa pun. Saya tidak bertanggung jawab atas kerusakan apa pun. Konfigurasi OpenCore ini dioptimalkan untuk perangkat keras khusus saya, jadi harap gunakan hanya sebagai referensi atau jika Anda memiliki perangkat keras yang sama/serupa.
 
-![Jepretan Layar 2021-12-27 pukul 23 09 39](https://user-images.githubusercontent.com/89202419/147488998-696ec7b1-47cc-405e-b278-f1a8d87ddb91.png)
+<img width="1920" alt="Jepretan Layar 2022-01-09 pukul 00 02 23" src="https://user-images.githubusercontent.com/89202419/148652995-b084d08e-4f4d-490e-9374-2260f41a9931.png">
 
 ## :computer: Hardware:
 
@@ -41,12 +41,13 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] Dual boot dengan Windows / Linux 
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
-- [x] Catalina (Tested, Opencore)
-- [x] Mojave (Tested, Opencore)
-- [x] High Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
-- [x] Sierra (Tested, Opencore) (Sleep Terkadang Rusak)
-- [x] Bigsur (Tested, Opencore)
-- [x] Monterey (Tested, Opencore) (Wifi / BT Tidak Bisa jalan)
+
+- [x] Sierra (Tested, Opencore, Olarila, Installer) (Sleep Terkadang Rusak, Kext Wifi Harus Dipasang Di S/L/E)
+- [x] High Sierra (Tested, Opencore, Olarila Installer) (Sleep Terkadang Rusak, Kext Wifi Harus Dipasang Di S/L/E)
+- [x] Mojave (Tested, Opencore, Online Installer)
+- [x] Catalina (Tested, Opencore, Online Installer)
+- [x] Bigsur (Tested, Opencore, Online Installer)
+- [x] Monterey (Tested, Opencore, Olarila Installer) (Wifi / BT Tidak Bisa jalan)
 
 ## :x: Not working:
 
@@ -65,7 +66,15 @@ Jika Anda menginginkan Wi-Fi dan Bluetooth yang berfungsi di luar kotak, saya sa
 
 saya benar-benar tidak memiliki masalah menjalankan macOS dengan konfigurasi ini, ini berjalan seperti pesona. Mungkin satu-satunya hal yang bisa saya tingkatkan adalah waktu boot. Ini tidak terlalu lambat
 
-### Screenshots 
+Jika Anda Ingin Mengaktifkan Retina Display Anda Dapat Mengunduh alat [ini](https://github.com/usr-sse2/RDM/releases/tag/2.5.0) Dan Edit Seperti Ini
+
+<img width="760" alt="Jepretan Layar 2022-01-09 pukul 00 09 19" src="https://user-images.githubusercontent.com/89202419/148653195-b4c1ea72-755e-4029-bc1e-aad8c7a156e8.png">
+
+Setelah Anda Install Mac OS .....   Anda Dapat Mendownloads Beberapa Kext Tambahan Seperti [FeatureUnlock.kext](https://github.com/acidanthera/FeatureUnlock/releases/tag/1.0.4) Dan Yang Lainnya
+
+Jika Touchpad Mati Sendiri Anda Dapat menekan fn+F9 atau Menghapus ASUSsmc.kext Dan menggantinya Dengan ASUSNBFNKEYS.kext
+ 
+### 🖼️ Screenshots 
 
 Grafik / Tampilan
 
@@ -127,6 +136,8 @@ Intel Power Gadget
 - [Olarila](http://olarila.com)
 - [OSXLatitude](https://osxlatitude.com)
 - [Hackintosh Lover](https://t.me/HackintoshLover)
+- [asepms92](https://github.com/asepms92)
+- [zacharyrs](https://github.com/zacharyrs/GL551JW-Hackintosh)
 - Dan Developer Lainnya
 
 
