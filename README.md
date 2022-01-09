@@ -218,7 +218,7 @@ Boot -> Launch CSM | Disable
 </details>
  
 
- ### Terimakasih Kepada :
+ ### 🙏 Terimakasih Kepada :
 
 - [Acidanthera](https://github.com/acidanthera)
 - [Rehabman](https://github.com/RehabMan)
