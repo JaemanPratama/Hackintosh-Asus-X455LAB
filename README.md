@@ -77,6 +77,8 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 6. Jika Touchpad Mati Sendiri Anda Dapat menekan fn+F9 atau Menghapus ASUSsmc.kext Dan menggantinya Dengan ASUSNBFNKEYS.kext
 
 7. Jika Pembacaan Fan Tidak Terbaca Anda Dapat menambahkan Asussmc.kext
+
+8. Tidak bisa mengetuk dengan satu jari? Pergi ke "System Preferences">"Trakpad">"Tap to click"
  
 ### 🖼️ Screenshots 
 
