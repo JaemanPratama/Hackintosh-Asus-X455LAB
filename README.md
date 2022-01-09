@@ -39,6 +39,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] iCloud dan App Store.
 - [x] iMessage dan FaceTime.
 - [x] Dual boot dengan Windows / Linux 
+- [x] Bootcamp 
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
@@ -59,22 +60,23 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [ ] Port VGA
 - [ ] Side car
 
-:warning: **WARNING:** 
-❗Bluetooth Terkadang Tidak Jalan Solusinya adalah Merestart / Mensleepkan Komputer !!
+## ⚠️ Peringatan :
 
-❗Jika Anda menginginkan Wi-Fi dan Bluetooth yang berfungsi di luar kotak, saya sarankan Anda mencari rekan nirkabel Broadcom bermerek Apple.
+1. Bluetooth Terkadang Tidak Jalan Solusinya adalah Merestart / Mensleepkan Komputer !!
 
-❗saya benar-benar tidak memiliki masalah menjalankan macOS dengan konfigurasi ini, ini berjalan seperti pesona. Mungkin satu-satunya hal yang bisa saya tingkatkan adalah waktu boot. Ini tidak terlalu lambat
+2. Jika Anda menginginkan Wi-Fi dan Bluetooth yang berfungsi di luar kotak, saya sarankan Anda mencari rekan nirkabel Broadcom bermerek Apple.
 
-❗Jika Anda Ingin Mengaktifkan Retina Display Anda Dapat Mengunduh alat [ini](https://github.com/usr-sse2/RDM/releases/tag/2.5.0) Dan Edit Seperti Ini
+3. saya benar-benar tidak memiliki masalah menjalankan macOS dengan konfigurasi ini, ini berjalan seperti pesona. Mungkin satu-satunya hal yang bisa saya tingkatkan adalah waktu boot. Ini tidak terlalu lambat
+
+4. Jika Anda Ingin Mengaktifkan Retina Display Anda Dapat Mengunduh alat [ini](https://github.com/usr-sse2/RDM/releases/tag/2.5.0) Dan Edit Seperti Ini
 
 <img width="760" alt="Jepretan Layar 2022-01-09 pukul 00 09 19" src="https://user-images.githubusercontent.com/89202419/148653195-b4c1ea72-755e-4029-bc1e-aad8c7a156e8.png">
 
-❗Setelah Anda Install Mac OS .....   Anda Dapat Mendownloads Beberapa Kext Tambahan Seperti [FeatureUnlock.kext](https://github.com/acidanthera/FeatureUnlock/releases/tag/1.0.4) Dan Yang Lainnya
+5. Setelah Anda Install Mac OS .....   Anda Dapat Mendownloads Beberapa Kext Tambahan Seperti [FeatureUnlock.kext](https://github.com/acidanthera/FeatureUnlock/releases/tag/1.0.4) Dan Yang Lainnya
 
-❗Jika Touchpad Mati Sendiri Anda Dapat menekan fn+F9 atau Menghapus ASUSsmc.kext Dan menggantinya Dengan ASUSNBFNKEYS.kext
+6. Jika Touchpad Mati Sendiri Anda Dapat menekan fn+F9 atau Menghapus ASUSsmc.kext Dan menggantinya Dengan ASUSNBFNKEYS.kext
 
-❗Jika Pembacaan Fan Tidak Terbaca Anda Dapat menambahkan Asussmc.kext
+7. Jika Pembacaan Fan Tidak Terbaca Anda Dapat menambahkan Asussmc.kext
  
 ### 🖼️ Screenshots 
 
