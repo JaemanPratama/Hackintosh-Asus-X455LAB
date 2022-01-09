@@ -130,60 +130,92 @@ Boot -> Launch CSM | Disable
 
 11. Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. **GUNAKAN DENGAN RISIKO ANDA SENDIRI**
  
-### 🖼️ Screenshots 
+### ℹ️ Informasi System :
 
-Grafik / Tampilan
+<details>
+<summary>Grafik / Tampilan </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 44 52](https://user-images.githubusercontent.com/89202419/147491857-3c882c6c-b7ac-4bac-9833-eaf0817c86dc.png)
+</details>
 
-Kamera
 
+<details>
+<summary>Kamera </summary>
+ 
 ![Jepretan Layar 2021-12-27 pukul 23 44 58](https://user-images.githubusercontent.com/89202419/147491928-7bca1e1a-a9d6-45fc-bc2a-e12673a6b8d1.png)
+</details>
 
-Kartu Ethernet 
+
+<details>
+<summary>Kartu Ethernet </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 45 03](https://user-images.githubusercontent.com/89202419/147492008-321e210b-65a5-4b74-81fc-48b50abeb192.png)
+</details>
 
-Baterai / Daya
+
+<details>
+<summary>Baterai / Daya </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 44 44](https://user-images.githubusercontent.com/89202419/147492106-0a551d3a-a528-4280-a414-7035addb199e.png)
+</details>
 
-PCI
+
+<details>
+<summary>PCI </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 45 45](https://user-images.githubusercontent.com/89202419/147492205-0af77aca-f86e-4cb4-8be7-b21a13ef07d5.png)
+</details>
 
- Pembakaran Disk
+
+<details>
+<summary>Pembakaran Disk </summary>
  
- ![Jepretan Layar 2021-12-27 pukul 23 45 51](https://user-images.githubusercontent.com/89202419/147492289-afb6441d-eb83-4ea4-9454-974ebe401ed1.png)
+![Jepretan Layar 2021-12-27 pukul 23 45 51](https://user-images.githubusercontent.com/89202419/147492289-afb6441d-eb83-4ea4-9454-974ebe401ed1.png)
+</details>
 
- Audio
+
+<details>
+<summary>Audio </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 59 12](https://user-images.githubusercontent.com/89202419/147492438-21f726ad-d471-4920-aac3-7f43e55dfce3.png)
+</details>
 
 
- ![Jepretan Layar 2021-12-27 pukul 23 47 39](https://user-images.githubusercontent.com/89202419/147492462-e643e253-12fd-46c5-aca1-cc8b7416543c.png)
-
-Sata / Sata Express
+<details>
+<summary>Sata / Sata Express </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 46 00](https://user-images.githubusercontent.com/89202419/147492671-71d7eabe-74dc-4fe8-8d43-9f51c81643a4.png)
+</details>
 
- USB
+
+<details>
+<summary>USB </summary>
  
- ![Jepretan Layar 2021-12-27 pukul 23 46 13](https://user-images.githubusercontent.com/89202419/147492769-03435186-0457-4bb0-a424-59207f3edd94.png)
+![Jepretan Layar 2021-12-27 pukul 23 46 13](https://user-images.githubusercontent.com/89202419/147492769-03435186-0457-4bb0-a424-59207f3edd94.png)
+</details>
 
-Jaringan
+
+<details>
+<summary>Jaringan </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 46 28](https://user-images.githubusercontent.com/89202419/147492937-5a2e7f71-6fdd-4d87-8928-a391dcd0012e.png)
+</details>
 
-Sensor
+<details>
+<summary>Sensor </summary>
 
 ![Jepretan Layar 2021-12-27 pukul 23 46 41](https://user-images.githubusercontent.com/89202419/147492965-22924fc8-1c60-4e10-8d64-36c916405619.png)
+</details>
 
-Intel Power Gadget
+ 
+<details>
+<summary>Intel Power Gadget </summary>
 
 ![Jepretan Layar 2021-12-28 pukul 00 16 44](https://user-images.githubusercontent.com/89202419/147493552-0edde29c-ee4f-4f00-9b6b-3a1ec7e43e93.png)
+</details>
+ 
 
-### Terimakasih Kepada :
+ ### Terimakasih Kepada :
 
 - [Acidanthera](https://github.com/acidanthera)
 - [Rehabman](https://github.com/RehabMan)
