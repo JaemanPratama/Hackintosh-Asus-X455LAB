@@ -40,6 +40,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] iMessage dan FaceTime.
 - [x] Dual boot dengan Windows / Linux 
 - [x] Bootcamp 
+- [x] File Vault
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
