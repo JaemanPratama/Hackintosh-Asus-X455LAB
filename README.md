@@ -50,6 +50,9 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] Bigsur (Tested, Opencore, Online Installer)
 - [x] Monterey (Tested, Opencore, Olarila Installer) (Wifi / BT Tidak Bisa jalan)
 
+## 📖 Panduan Instalasi :
+Segera ... jika Anda membutuhkan :v
+
 ## :x: Not working:
 
 - [ ] AirDrop, Handoff, Continuity, Karena chipset dan modul ini tidak didukung
