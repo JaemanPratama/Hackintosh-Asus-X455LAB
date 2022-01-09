@@ -51,7 +51,37 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] Monterey (Tested, Opencore, Olarila Installer) (Wifi / BT Tidak Bisa jalan)
 
 ## 📖 Panduan Instalasi :
-Segera ... jika Anda membutuhkan :v
+
+__BIOS Settings__ :
+
+- Set Supervisor Password
+- Disable Secure Boot
+- Disable CFG Lock
+
+__OpenCore config__ :
+
+- Ikuti petunjuk ini untuk mengonfigurasi OpenCore Anda: https://dortania.github.io/OpenCore-Install-Guide/  
+- ACPI Hotpatch: https://github.com/daliansky/OC-little  
+- Audio layout ID: 21 / 28
+
+__Install MacOS__ :
+
+- Buat USB yang dapat di-boot: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/  
+- Jika Anda memiliki masalah dalam menginstal Catalina atau yang lebih baru. Instal Mojave kemudian Anda dapat memperbarui ke versi yang lebih baru.
+
+__USB Mapping__ :
+
+- USB Mapping: https://github.com/corpnewt/USBMap
+
+__Fix iServices__ :
+
+- Fix iServices: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html
+
+
+__Fix Dual Boot__ :
+
+- Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/  
+
 
 ## :x: Not working:
 
