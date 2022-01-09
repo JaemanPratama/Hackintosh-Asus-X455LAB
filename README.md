@@ -63,6 +63,18 @@ Segera ... jika Anda membutuhkan :v
 - [ ] Port VGA
 - [ ] Side car
 
+## 🔍 Konfigurasi Bios :
+
+Konfigurasi Bios | Setting 
+:---:| :---:
+Security -> Secure Boot | Disable
+Intel Virtualization    | Enable
+VT-d | Enable
+Graphics Configuration -> DVMT Pre-Allocation | 32M
+USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
+SATA Mode | AHCI
+Boot -> Launch CSM | Disable 
+
 ## ⚠️ Peringatan :
 
 1. Bluetooth Terkadang Tidak Jalan Solusinya adalah Merestart / Mensleepkan Komputer !!
