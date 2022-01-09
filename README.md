@@ -54,9 +54,8 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 
 __BIOS Settings__ :
 
-- Set Supervisor Password
 - Disable Secure Boot
-- Disable CFG Lock
+- Enable CFG Lock
 
 __OpenCore config__ :
 
