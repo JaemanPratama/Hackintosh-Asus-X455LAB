@@ -18,6 +18,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 |**Ethernet**    |Realtek RTL8111				 		|										      |
 |**Audio** 		 |Conexant CX20751/2				 		|28 / 21 untuk ID tata letak tampaknya berfungsi paling baik|
 |**Input**       |PS2 Keyboard & Focaltech Touchpad |										      |
+|**Bootloader**       |Opencore |	0.7.6									      |
 
 ## :white_check_mark: Working:
 
