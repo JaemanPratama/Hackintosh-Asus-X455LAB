@@ -31,6 +31,8 @@
 
 - klik 2 atau 3 kali
 - klik dengan satu jari
+- Drag And Drop
+- Klik Sudut
 - kecepatan Trackpad
 - Gulir Trackpad
 - Zoom
