@@ -44,4 +44,4 @@
 - Gesek 4 jari ke atas untuk Launchpad
 - Gesek 4 jari ke bawah untuk Applications Switch
 - Ketuk 5 jari untuk menampilkan Desktop
-- 
+
