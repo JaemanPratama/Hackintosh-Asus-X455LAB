@@ -137,7 +137,7 @@ end;
 -----------------------
 
 ## SSDT 
-Buka Maciasl --> File --> New File --> Copy kode yang dibawah ini --> Berikan Nama SSDT-PS2K.aml 
+Buka Maciasl --> File --> New File --> Copy kode yang dibawah ini --> Berikan Nama SSDT-PS2K.aml --> Tambahkan [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys/releases)
 
 ```c
 // Keyboard configuration
@@ -235,3 +235,12 @@ DefinitionBlock("", "SSDT", 2, "hack", "PS2K", 0)
 --------------------
 
 -----------------------
+
+- Untuk SSDT yang dikompilasi dengan iasl yang lebih baru, replace `Name (_Q0E)` to `Name (XQ0E)`:  
+Find: `5F513045 00A00E`  
+Repl: `58513046 00A00E` 
+
+- Untuk SSDT yang dikompilasi dengan iasl yang lebih baru, replace `Name (_Q0F)` to `Name (XQ0F)`:   
+Find: `5F513046 00A00E`   
+Repl: `58513046 00A00E` 
+</details>
