@@ -244,3 +244,7 @@ Repl: `58513046 00A00E`
 Find: `5F513046 00A00E`   
 Repl: `58513046 00A00E` 
 </details>
+
+#### Credits
+- [zacharyrs](https://github.com/zacharyrs/GL551JW-Hackintosh) Untuk Kode ACPI SSDT
+- [hieplpvip](https://github.com/hieplpvip/AsusSMC) Untuk Patch FN Keys
