@@ -137,7 +137,7 @@ end;
 -----------------------
 
 ## SSDT 
-Buka Maciasl --> File --> New File --> Copy kode yang dibawah ini --> Berikan Nama SSDT-PS2K.aml
+Buka Maciasl --> File --> New File --> Copy kode yang dibawah ini --> Berikan Nama SSDT-PS2K.aml 
 
 ```c
 // Keyboard configuration
