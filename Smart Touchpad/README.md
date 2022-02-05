@@ -29,7 +29,7 @@
 
 ### Gesture Yang Aktif :
 
-- klik 2 atau 3 kali
+- klik atau ketuk dengan menggunakan 2 atau 3 Jari
 - klik dengan satu jari
 - Drag And Drop
 - Klik Sudut
@@ -42,4 +42,6 @@
 - Gesek 3 jari ke atas untuk Mission Control
 - Gesek 3 ke bawah untuk APP EXPOSE
 - Gesek 4 jari ke atas untuk Launchpad
-- Ketuk 4 jari untuk menampilkan Desktop
+- Gesek 4 jari ke bawah untuk Applications Switch
+- Ketuk 5 jari untuk menampilkan Desktop
+- 
