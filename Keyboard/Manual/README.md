@@ -1,4 +1,4 @@
-Pilih 2 Metode 
+Pilih 2 Metode [DSDT](#DSDT) / [SSDT](#SSDT)
 
 
 ## DSDT 
