@@ -6,7 +6,7 @@ Pilih 2 Metode [DSDT](#DSDT) / [SSDT](#SSDT)
 Buka Maciasl --> DSDT.aml --> Patch --> Copy kode yang dibawah ini
 
 
-```c
+```yaml
 
 # Replacing method _Q76 for ALS toggle A key to work
 into Method label _Q76 replace_content begin
@@ -132,14 +132,12 @@ end;
 
 
 ```
---------------------
 
------------------------
 
 ## SSDT 
 Buka Maciasl --> File --> New File --> Copy kode yang dibawah ini --> Berikan Nama SSDT-PS2K.aml --> Tambahkan [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys/releases)
 
-```c
+```yaml
 // Keyboard configuration
 // Only necessary if using ApplePS2SmartTouchpad + AsusNBFnKeys
 
@@ -232,9 +230,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "PS2K", 0)
 //EOF
 
 ```
---------------------
 
------------------------
 
 - Untuk SSDT yang dikompilasi dengan iasl yang lebih baru, replace `Name (_Q0E)` to `Name (XQ0E)`:  
 Find: `5F513045 00A00E`  
