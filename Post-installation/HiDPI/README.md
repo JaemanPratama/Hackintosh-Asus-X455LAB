@@ -16,9 +16,9 @@ Jika HiDPI diaktifkan, Anda akan melihat emoji petir di sebelah resolusi di RDM 
 
 Opsi lain untuk memeriksa apakah HiDPI diaktifkan ada di bawah Tampilan di Preferensi Sistem. Di bawah tab Display, tahan tombol Option saat memilih Scaled. Ini akan menampilkan beberapa opsi resolusi yang disarankan MacOS untuk monitor Anda. Jika HiDPI diaktifkan di sistem Anda, Anda mungkin akan melihat resolusi yang ukuran resolusi asli monitor Anda yang memiliki "(HiDPI)" di sebelah resolusi.
 
-Langkah 3: Hasilkan Resolusi
+### Langkah 3: Hasilkan Resolusi
 
 Inilah bagian terpenting yang menghalangi saya untuk waktu yang lama karena sepertinya saya tidak dapat menemukannya diposting di mana pun. **Anda perlu membuat KEDUA resolusi HiDPI yang diskalakan yang Anda inginkan dan MENGGANDAKAN resolusi tersebut.**
 
-Langkah 4: Nyalakan ulang
+### Langkah 4: Nyalakan ulang
 Nyalakan ulang mesin agar perubahan diterapkan. Jika nama dan lokasi file sudah benar untuk sistem Anda, maka MacOS akan secara otomatis mengenali file dan melihat resolusi baru. Buka RDM dan pilih resolusi yang ingin Anda gunakan. Dan voila! Sekarang Anda dapat menggunakan resolusi yang diskalakan.
