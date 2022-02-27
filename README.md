@@ -12,7 +12,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 |**CPU**		 |2.0GHz Intel Core i3-5005U	 		|										      |
 |**GPU**		 |Intel HD 5500				     		|										      |
 |**RAM**         |4 + 2 GB 1600 MHz DDR3               		|		Upgrade Ram								      |
-|**HDD**         |500 GB SATA	 		| Ganti Ke SSD	Untuk Pengalaman Yang Lebih Baik									      |
+|**SSD**         |256 GB SATA	 		| Ganti Ke SSD	Untuk Pengalaman Yang Lebih Baik									      |
 |**Layar**     |14 Inch HD LED		 		|										      |
 |**Wi-Fi/BT**    |AR9565/QCA956X	  			     		|	      |
 |**Ethernet**    |Realtek RTL8111				 		|										      |
