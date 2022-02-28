@@ -1,4 +1,4 @@
-Wifi !
+## Wifi !
 
 Big Sur , Catalina , Mojave 
 
@@ -9,7 +9,7 @@ High Sierra dan dibawahnya
 
 Seret ATH9KINjector.kext dan IO80211Family_ATH.kext ke KextUtility.app, masukkan Kata Sandi Anda dan tunggu
 
-Bluetooth !
+## Bluetooth !
 
 Cara 1 
 
