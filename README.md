@@ -188,8 +188,11 @@ Boot -> Launch CSM | Disable
 - [Olarila](http://olarila.com)
 - [OSXLatitude](https://osxlatitude.com)
 - [Hackintosh Lover](https://t.me/HackintoshLover)
+- [Hackintosh Indonesia](https://id-id.facebook.com/groups/hackintosh.indonesia/)
 - [asepms92](https://github.com/asepms92)
 - [zacharyrs](https://github.com/zacharyrs/GL551JW-Hackintosh)
+- [Google](google.com)
+- [Reddit](https://www.reddit.com/r/hackintosh/)
 - Dan Developer Lainnya
 
 
