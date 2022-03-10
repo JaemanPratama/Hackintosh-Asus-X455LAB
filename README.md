@@ -1,70 +1,45 @@
-# ASUS A455LA X455LA WX668D Opencore Hackintosh
+## ASUS A455LA X455LA WX668D Opencore Hackintosh
 
 :warning: **PERINGATAN:**
 Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortania.github.io/getting-started/) sebelum melakukan apa pun. Saya tidak bertanggung jawab atas kerusakan apa pun. Konfigurasi OpenCore ini dioptimalkan untuk perangkat keras khusus saya, jadi harap gunakan hanya sebagai referensi atau jika Anda memiliki perangkat keras yang sama/serupa.!
 
-![Jepretan Layar 2022-02-27 pukul 08 22 08](https://user-images.githubusercontent.com/89202419/155864375-e32897d2-a3c7-4b83-ad64-a31de0bce8f9.png)
 
 
-## :computer: Hardware:
-
-| **Category**   | **Component**                 		|	**Note**			 				      |
-|----------------|--------------------------------------|--------------------------------------------|
-|**CPU**		 |2.0GHz Intel Core i3-5005U	 		|										      |
-|**GPU**		 |Intel HD 5500				     		|										      |
-|**RAM**         |4 + 2 GB 1600 MHz DDR3               		|		Upgrade Ram								      |
-|**SSD**         |256 GB SATA	 		| Ganti Ke SSD	Untuk Pengalaman Yang Lebih Baik									      |
-|**Layar**     |14 Inch HD LED		 		|										      |
-|**Wi-Fi/BT**    |AR9565/QCA956X	  			     		|	      |
-|**Ethernet**    |Realtek RTL8111				 		|										      |
-|**Audio** 		 |Conexant CX20751/2				 		|28 / 21 untuk ID tata letak tampaknya berfungsi paling baik|
-|**Input**       |PS2 Keyboard & Focaltech Touchpad |										      |
-|**Bootloader**       |Opencore |	0.7.8									      |
-
-## :white_check_mark: Working:
-
-- [x] Graphics Acceleration.
-- [x] CPU power management.
-- [x] Night Sift
-- [x] Airplay  
-- [x] Pembacaan baterai.
-- [x] Pembacaan Fan 
-- [x] Keyboard & Trackpad dengan Beberapa Gesture.
-- [x] Fn Key 
-- [x] Wi-Fi.
-- [x] USB ports.
-- [x] Web camera.
-- [x] HDMI video dan audio output.
-- [x] Ethernet.
-- [x] Audio.
-- [x] Mikrofon internal.
-- [x] iCloud dan App Store.
-- [x] iMessage dan FaceTime.
-- [x] Dual boot dengan Windows / Linux 
-- [x] Bootcamp 
-- [x] File Vault
+| 💻 Spesifikasi | 👍 Komponen yang Berfungsi | ⛔ Komponen Tidak Berfungsi |
+|--|--|--|
+| Intel HD 5500 | :white_check_mark: Intel HD 5500 1536mb | :x: AirDrop, Handoff, Continuity |
+| Conexant CX20751/2 | :white_check_mark: Wifi | |
+| Layar 14 Inch HD LED 1366x768 | :white_check_mark: USB C/3.0 | |
+| 4 + 2 GB 1600 MHz DDR3 | :white_check_mark: port Ethernet | |
+| 256 GB SATA | :white_check_mark: Audio | |  
+| AR9565/QCA956X | :white_check_mark: Mikrofon | |
+| 2.0GHz Intel Core i3-5005U | :white_check_mark: iMessage / Facetime |  |
+| PS2 Keyboard & Focaltech Touchpad | :white_check_mark: Tidur / Bangun | | 
+|  AR3012 (Azurewave Tech) | :white_check_mark: Penyesuaian kecerahan layar | |
+| Realtek RTL8111 | :white_check_mark: Kamera web | |
+| HDMI | :white_check_mark: HDMI | |
+| Alcor Micro USB Card Reader | :white_check_mark: Pembacaan Fan | |
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
-- [x] Sierra (Tested, Opencore, Olarila, Installer) (Sleep Terkadang Rusak, Kext Wifi Harus Dipasang Di S/L/E)
-- [x] High Sierra (Tested, Opencore, Olarila Installer) (Sleep Terkadang Rusak, Kext Wifi Harus Dipasang Di S/L/E)
+- [x] Sierra (Tested, Opencore, Olarila, Installer) 
+- [x] High Sierra (Tested, Opencore, Olarila Installer) 
 - [x] Mojave (Tested, Opencore, Online Installer)
 - [x] Catalina (Tested, Opencore, Online Installer)
 - [x] Bigsur (Tested, Opencore, Online Installer)
-- [x] Monterey (Tested, Opencore, Olarila Installer) (Wifi / BT Tidak Bisa jalan)
+- [x] Monterey (Tested, Opencore, Olarila Installer) 
 
+## 💪 Peningkatan
 
-## :x: Not working:
-
-- [ ] AirDrop, Handoff, Continuity, Karena chipset dan modul ini tidak didukung
-
-## ❗ Tidak Di Uji:
-
-- [ ] Port Kartu SD 
-- [ ] Port VGA
-- [ ] Side car
+### SSD MidasForce Sata 256
+Mengganti HDD dengan SSD agar meningkatkan Peforma dan Juga Drive boot utama untuk mesin ini
 
 ## 🔍 Konfigurasi Bios :
+
+Bagian di bawah ini diadaptasi dari @asepms92 [Hackintosh-ASUS-A455LF-Notebook](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/blob/master/README.md). Ini sangat besar, karena saya tidak pernah tahu cara mengakses semua pengaturan lanjutan di BIOS saya.
+
+**Cara Memasuki Bios:**\
+Tekan **F2** 
 
 Konfigurasi Bios | Setting 
 :---:| :---:
@@ -76,23 +51,30 @@ USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
 SATA Mode | AHCI
 Boot -> Launch CSM | Disable 
 
-## ⚠️ Peringatan :
+## 📔 Sedikit Catatan :
 
-1. Bluetooth Terkadang Tidak Jalan Solusinya adalah Merestart / Mensleepkan Komputer !!
+### Bluetooth menggunakan AR3012 (Azurewave Tech)
+Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext
 
-2. Jika Anda menginginkan Wi-Fi dan Bluetooth yang berfungsi di luar kotak, saya sarankan Anda mencari rekan nirkabel Broadcom bermerek Apple.
+### Wifi menggunakan AR9565 / AR956X di Catalina
+Setelah membuat Catalina bekerja di mesin saya, masalah terbesar adalah membuat kecepatan wifi benar-benar berfungsi. 
 
-3. saya benar-benar tidak memiliki masalah menjalankan macOS dengan konfigurasi ini, ini berjalan seperti pesona. Mungkin satu-satunya hal yang bisa saya tingkatkan adalah waktu boot. Ini tidak terlalu lambat
+### Membuat touchpad dan tombol berfungsi
+https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/ menunjukkan solusi untuk membuat touchpad berfungsi. 
 
-4. Jika Touchpad Mati Sendiri Anda Dapat menekan fn+F9 atau Menghapus ASUSsmc.kext Dan menggantinya Dengan ASUSNBFNKEYS.kext
+### Legalitas Hackintosh
+Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
 
-5. Jika Pembacaan Fan Tidak Terbaca Anda Dapat menambahkan Asussmc.kext
+### Perjanjian Lisensi Pengguna
+Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
 
-6. Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
+Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. **GUNAKAN DENGAN RISIKO ANDA SENDIRI**
 
-7. Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
+## :man_facepalming: Masalah Luar Biasa
 
-8. Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. **GUNAKAN DENGAN RISIKO ANDA SENDIRI**
+### Membuat touchpad dan tombol benar benar berfungsi 
+Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan tombol berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
+
  
 ### ℹ️ Informasi System :
 
