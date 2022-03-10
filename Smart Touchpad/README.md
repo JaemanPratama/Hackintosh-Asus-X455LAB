@@ -25,7 +25,7 @@
 
 - Prefensi System --> Papan Ketik --> Mission Control Dan Edit Seperti Ini :
 
-![Jepretan Layar 2022-02-04 pukul 22 40 17](https://user-images.githubusercontent.com/89202419/152557869-f14c3ede-2171-4ef5-b764-70c8d9310831.png)
+![Jepretan Layar 2022-03-11 pukul 00 29 12](https://user-images.githubusercontent.com/89202419/157720887-2dc8ad17-1f85-4af2-bb1c-8213146c4a04.png)
 
 ### Gesture Yang Aktif :
 
@@ -38,10 +38,8 @@
 - Zoom
 - Zoom Cerdas
 - Gesek kanan / kiri dengan menggunakan 3 jari
-- Gesek 4 jari kekiri untuk membukan pusat pemberitahuan
 - Gesek 3 jari ke atas untuk Mission Control
 - Gesek 3 ke bawah untuk APP EXPOSE
-- Gesek 4 jari ke atas untuk Launchpad
-- Gesek 4 jari ke bawah untuk Applications Switch
+- Gesek Jepit 5 jari untuk Launchpad
 - Ketuk 5 jari untuk menampilkan Desktop
 
