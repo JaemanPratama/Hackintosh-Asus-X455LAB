@@ -1,4 +1,4 @@
-## ASUS A455LA X455LA WX668D Opencore Hackintosh
+## ASUS A455LA / X455LA WX668D Opencore Hackintosh
 
 :warning: **PERINGATAN:**
 Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortania.github.io/getting-started/) sebelum melakukan apa pun. Saya tidak bertanggung jawab atas kerusakan apa pun. Konfigurasi OpenCore ini dioptimalkan untuk perangkat keras khusus saya, jadi harap gunakan hanya sebagai referensi atau jika Anda memiliki perangkat keras yang sama/serupa.!
