@@ -1,4 +1,4 @@
-## 📖 Panduan Instalasi :
+## 📖 Panduan Singkat Instalasi :
 
 __BIOS Settings__ :
 
