@@ -25,12 +25,13 @@
 
 - Prefensi System --> Papan Ketik --> Mission Control Dan Edit Seperti Ini :
 
-![Jepretan Layar 2022-03-11 pukul 00 29 12](https://user-images.githubusercontent.com/89202419/157720887-2dc8ad17-1f85-4af2-bb1c-8213146c4a04.png)
+![Jepretan Layar 2022-03-26 pukul 20 56 44](https://user-images.githubusercontent.com/89202419/160242730-59f11570-7c98-4f4e-ac8e-a5bf004b9cb0.png)
 
 ### Gesture Yang Aktif :
 
 - klik atau ketuk dengan menggunakan 2 atau 3 Jari
 - klik dengan satu jari
+- Membuka dan Menutup Pusat notifikasi
 - Drag And Drop
 - Klik Sudut
 - kecepatan Trackpad
