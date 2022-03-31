@@ -42,7 +42,7 @@ Gesture             |  Deskripsi
 ![](https://help.apple.com/assets/61B3707D08121F6CC14EE202/61B3708108121F6CC14EE219/en_US/2b85d08fbce2e3021bb86ebc9b52c751.png) | Membuka Mission Control. Geser ke atas dengan tiga jari
 ![](https://help.apple.com/assets/60956BCCB4EAF4452A503181/60956BCDB4EAF4452A50318F/en_US/080f756e0c8b56c2e7a2c925b1a01a96.png) | Membuka APP EXPOSE. Geser ke bawah dengan tiga jari 
 ![](https://help.apple.com/assets/61B3707D08121F6CC14EE202/61B3708108121F6CC14EE219/en_US/32be9f6360ff6ae5bddd592b4f398358.png) | Beralih di antara aplikasi yang terbuka. Geser ke kiri atau kanan dengan tiga jari untuk berpindah antara desktop dan aplikasi layar penuh
-![](https://help.apple.com/assets/61B3707D08121F6CC14EE202/61B3708108121F6CC14EE219/en_US/f3f6cfb1e34037ce6afdb601497123e8.png) | Klik sekunder. Klik dengan dua jari untuk menunjukkan tindakan cepat
+![](https://help.apple.com/assets/61B3707D08121F6CC14EE202/61B3708108121F6CC14EE219/en_US/f3f6cfb1e34037ce6afdb601497123e8.png) | klik kanan.  Klik atau ketuk dengan dua jari
 ![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/keyboards/trackpad2-open-notification-center.png) | Buka Pusat Pemberitahuan. Gesek ke kiri dari tepi kanan dengan dua jari untuk menampilkan Pusat Pemberitahuan
 ![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/keyboards/trackpad2-smart-zoom.png) | Zoom cerdas. Ketuk dua kali dengan dua jari untuk memperbesar dan memperkecil halaman web atau PDF
 ![](https://user-images.githubusercontent.com/89202419/160249799-bb17e9d2-3031-41b3-a38c-f5eff9c69eaa.png) | Menampilkan Desktop. Klik 5 jari untuk menampilkan Desktop
