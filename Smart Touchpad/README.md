@@ -49,6 +49,8 @@ Gesture             |  Deskripsi
 ![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/keyboards/trackpad2-launchpad.png) | Membuka Launchpad. Jepit 5 jari untuk Menampilkan Launchpad
 ![](https://user-images.githubusercontent.com/89202419/161056439-231fdc0c-1984-449f-bee6-00d10e1c6ee2.jpg)| Ketukan Sudut. Mengetuk di area sudut touchpad
 ![](https://user-images.githubusercontent.com/89202419/161057779-12b20f1a-6a6b-401d-8265-d0677a448832.png) |  Rotasi. letakkan jari pertama di touchpad selama 1-2 detik sebelum memutar dengan jari lain
+![](https://user-images.githubusercontent.com/89202419/161063663-8925e6cd-1907-4ffc-99d3-d5ea65468867.png) | Menampilkan jendela. Ketuk dua kali dengan tiga jari untuk Menampilkan jendela Aplikasi
+
 
 
 
