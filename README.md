@@ -11,7 +11,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 | Conexant CX20751/2 | :white_check_mark: Wifi | |
 | Layar 14 Inch HD LED 1366x768 | :white_check_mark: USB C/3.0 | |
 | 4 + 2 GB 1600 MHz DDR3 | :white_check_mark: port Ethernet | |
-| 256 GB SATA | :white_check_mark: Audio | |  
+| SSD MidasForce 256 GB SATA | :white_check_mark: Audio | |  
 | AR9565/QCA956X | :white_check_mark: Mikrofon | |
 | 2.0GHz Intel Core i3-5005U | :white_check_mark: iMessage / Facetime |  |
 | PS2 Keyboard & Focaltech Touchpad | :white_check_mark: Tidur / Bangun | | 
@@ -31,7 +31,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 
 ## 💪 Peningkatan
 
-### SSD MidasForce Sata 256
+### SSD MidasForce Sata 256 GB
 Mengganti HDD dengan SSD agar meningkatkan Peforma dan Juga Drive boot utama untuk mesin ini
 
 ## 🔍 Konfigurasi Bios :
