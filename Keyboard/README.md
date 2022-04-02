@@ -7,6 +7,6 @@ ini adalah panduan tentang cara memetakan keyboard windows lokal Anda ke mac, da
 4. cari tentang nama keyboard (laptop) Anda dan unduh konfigurasinya.
 5. di BetterTouchTool klik di preset dan impor file yang Anda unduh.
 6. jika Anda tidak menemukannya, Anda dapat memodifikasi tombol secara [manual](https://github.com/ihsan-abbas/Hackintosh-Asus-X455LA-Broadwell/tree/main/Keyboard/Manual) dan memetakan ulang keyboard Anda.
-7. tolong unggah atau kirimkan saya konfigurasi manual dengan model keyboard (laptop) Anda sehingga saya dapat menambahkan repo untuk pengguna di masa mendatang.
+
 
 Terima kasih
