@@ -8,17 +8,28 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 | 💻 Spesifikasi | 👍 Komponen yang Berfungsi | ⛔ Komponen Tidak Berfungsi |
 |--|--|--|
 | Intel HD 5500 | :white_check_mark: Intel HD 5500 1536mb | :x: AirDrop, Handoff, Continuity |
-| Conexant CX20751/2 | :white_check_mark: Wifi | |
-| Layar 14 Inch HD LED 1366x768 | :white_check_mark: USB C/3.0 | |
-| 4 + 2 GB 1600 MHz DDR3 | :white_check_mark: port Ethernet | |
-| SSD MidasForce 256 GB SATA | :white_check_mark: Audio | |  
-| AR9565/QCA956X | :white_check_mark: Mikrofon | |
-| 2.0GHz Intel Core i3-5005U | :white_check_mark: iMessage / Facetime |  |
-| PS2 Keyboard & Focaltech Touchpad | :white_check_mark: Tidur / Bangun | | 
-|  AR3012 (Azurewave Tech) | :white_check_mark: Penyesuaian kecerahan layar | |
-| Realtek RTL8111 | :white_check_mark: Kamera web | |
-| HDMI | :white_check_mark: HDMI | |
-| Alcor Micro USB Card Reader | :white_check_mark: Pembacaan Fan | |
+| Conexant CX20751/2 | :white_check_mark: Speaker Internal Dan Mikrofon Internal | |
+| Layar 14 Inch HD LED 1366x768 | :white_check_mark: Penyesuaian kecerahan layar | |
+| Realtek RTL8111GU PCI Express Gigabit Ethernet | :white_check_mark: port Ethernet | |
+| HDMI | :white_check_mark: Port HDMI | |
+| AR9565/QCA956X | :white_check_mark: Wifi | |
+| Bluetooth AR3012 (Azurewave Tech) | :white_check_mark: Bluetooth | |
+| PS2 Keyboard & Focaltech Touchpad | :white_check_mark: Keyboard Internal Dan Touchpad Internal | | 
+| Kamera Internal | :white_check_mark: Kamera Internal | |
+| SSD MidasForce 256 GB SATA | :white_check_mark: Pembacaan SSD Di Menu Recovery | |
+| 4 + 2 GB 1600 MHz DDR3 | :white_check_mark: Pembacaan Ram |  |
+| 2.0GHz Intel Core i3-5005U | :white_check_mark: akselerasi grafis |  |
+| Alcor Micro USB Card Reader | 🤔 Pembacaan Kartu SD | |
+| DVD Internal | :white_check_mark: Pembacaan DVD | |
+| Baterai Internal | :white_check_mark: Pembacaan Presentase Baterai Internal | |
+| | :white_check_mark: Tidur Dan Bangun | |
+| | :white_check_mark: iMessage Dan Facetime | |
+| | :white_check_mark: Pembacaan Fan, Jika Memakai [AsusSMC.kext](https://github.com/hieplpvip/AsusSMC/releases) | |
+| | :white_check_mark: USB C/3.0 | |
+| | :white_check_mark: Boot Mode Aman | |
+| | :white_check_mark: Mengaktifkan FileVault | |
+| | :white_check_mark: Dual Boot Dengan Windows 10 | |
+
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
