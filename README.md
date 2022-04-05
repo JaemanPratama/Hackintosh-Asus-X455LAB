@@ -14,7 +14,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 | HDMI | :white_check_mark: Port HDMI | |
 | AR9565/QCA956X | :white_check_mark: Wifi | |
 | Bluetooth AR3012 (Azurewave Tech) | :white_check_mark: Bluetooth | |
-| PS2 Keyboard & Focaltech Touchpad | :white_check_mark: Keyboard Internal Dan Touchpad Internal | | 
+| PS2 Keyboard & ETD0108 Focaltech Touchpad | :white_check_mark: Keyboard Internal Dan Touchpad Internal | | 
 | Kamera Internal | :white_check_mark: Kamera Internal | |
 | SSD MidasForce 256 GB SATA | :white_check_mark: Pembacaan SSD Di Menu Recovery | |
 | 4 + 2 GB 1600 MHz DDR3 | :white_check_mark: Pembacaan Ram |  |
