@@ -22,6 +22,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 | Alcor Micro USB Card Reader | 🤔 Pembacaan Kartu SD | |
 | DVD Internal | :white_check_mark: Pembacaan DVD | |
 | Baterai Internal | :white_check_mark: Pembacaan Presentase Baterai Internal | |
+| Bootloader | :white_check_mark: Opencore 0.8.0 | |
 | | :white_check_mark: Tidur Dan Bangun | |
 | | :white_check_mark: iMessage Dan Facetime | |
 | | :white_check_mark: Pembacaan Fan, Jika Memakai [AsusSMC.kext](https://github.com/hieplpvip/AsusSMC/releases) | |
@@ -29,6 +30,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 | | :white_check_mark: Boot Mode Aman | |
 | | :white_check_mark: Mengaktifkan FileVault | |
 | | :white_check_mark: Dual Boot Dengan Windows 10 | |
+
 
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
