@@ -1,12 +1,23 @@
-
-# Remap Keyboard untuk Hackintosh
-ini adalah panduan tentang cara memetakan keyboard windows lokal Anda ke mac, dan Anda dapat menyesuaikannya sesuai keinginan menggunakan BetterTouchTool. untuk ini, Anda harus mengikuti langkah-langkah ini:
-1. unduh dan instal qBittorrent dari url ini: https://www.qbittorrent.org/download.php
-2. dowload dan instal BetterTouchTool dari url ini: https://1337x.to/torrent/3233338/BetterTouchTool-2-636-macOS/
-3. setelah menginstal buka aplikasi dan menuju ke keyboard di bilah atas.
-4. cari tentang nama keyboard (laptop) Anda dan unduh konfigurasinya.
-5. di BetterTouchTool klik di preset dan impor file yang Anda unduh.
-6. jika Anda tidak menemukannya, Anda dapat memodifikasi tombol secara [manual](https://github.com/ihsan-abbas/Hackintosh-Asus-X455LA-Broadwell/tree/main/Keyboard/Manual) dan memetakan ulang keyboard Anda.
-
-
-Terima kasih
+## Keyboard Function:
+ - Ctrl Kiri + Pause Break: keluarkan drive Optik
+ - Ctrl Kanan + Pause Break: Membuka Menu Sleep, Restart, Shutdown
+ - Fn + F1: Sleep
+ - Fn + F2: Mematikan Wifi Hanya Bekerja di Bigsur Setelah Menginstall AsusSmc Daemon dan AsusSMC.kext
+ - Fn + F3: Tidak Bekerja
+ - Fn + F4: Tidak Bekerja
+ - Fn + F5: Mengurangi Kecerahan
+ - Fn + F6: Menambahkan Kecerahan
+ - Fn + F7: Mematikan Layar
+ - Fn + F8: Jangan Disentuh !! karena Hanya Menghasilkan Reboot (Bug)
+ - Fn + F9: Mematikan Touchpad (hanya Bekerja Memakai AsusNBFnKeys.kext)
+ - Fn + F10: Mute
+ - Fn + F11: Volume Turun
+ - Fn + F12: Volume Naik
+ - Fn + Panah Atas: Mengaktifkan kontrol yang lebih baik untuk tingkat kecerahan/volume yang lebih kecil dalam mode tombol Fn
+ - Fn + arrow Bawah: Putar/Jeda
+ - Fn + arrow kiri: Media Sebelumnya
+ - Fn + arrow right: Media Selanjutnya
+ - konteks Kanan: Membuka Menu Kontekstual
+ - Print Screen: Pintasan tangkapan layar 
+ - Delete scr lk : Pintasan Tombol Hapus
+ 
