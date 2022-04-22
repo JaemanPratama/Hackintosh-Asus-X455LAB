@@ -66,6 +66,24 @@ Boot -> Launch CSM | Disable
 
 ## 📔 Sedikit Catatan :
 
+### Kosmetik
+
+melewati menu boot OC setelah mesin memuat bootx64.efi?
+
+
+
+<img src="https://www.tonymacx86.com/attachments/screen-shot-2020-04-24-at-9-57-47-pm-png.483725/" width="50%" height="50%">
+Setel showpicker = False
+
+
+
+
+
+<img src="https://user-images.githubusercontent.com/89202419/164737854-dd77acfc-0543-4d0b-a6cd-3a8ca1719744.png" width="50%" height="50%">
+
+
+
+
 ### Bluetooth menggunakan AR3012 (Azurewave Tech)
 Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext
 
