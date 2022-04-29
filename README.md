@@ -1,6 +1,6 @@
 ## ASUS A455LA / X455LA WX668D Opencore Hackintosh
 
-OpenCore EFI untuk Asus X455LA 
+***OpenCore EFI untuk Asus X455LA*** 
 
 
 
@@ -152,7 +152,7 @@ Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat
 ```
 Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. GUNAKAN DENGAN RISIKO ANDA SENDIRI
 ```
-## :man_facepalming: `Masalah Luar Biasa`
+## :man_facepalming: **Masalah Luar Biasa**
 
 ### `Membuat touchpad dan tombol benar benar berfungsi`
 Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan tombol berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
