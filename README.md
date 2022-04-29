@@ -155,7 +155,7 @@ Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboa
 Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya. 
 
 ### `Memaksakan mematikan bluetooth`
-Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan `Kext Ath3BT.kext dan IOath3kfrmwr.kext` Tetapi jika *terlalu memaksakan Mematikan Bluetooth di Prefensi System* itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
+Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan `Kext Ath3BT.kext dan IOath3kfrmwr.kext` Tetapi jika ***terlalu memaksakan Mematikan Bluetooth di Prefensi System*** itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
 
  
 ### ℹ️ Informasi System :
