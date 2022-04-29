@@ -61,7 +61,7 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 | HibernationFixup.kext | Fix RTC variables and NVRAM |
 | HS80211Family.kext | 80211 network |
 | RealtekRTL8111.kext | Realtek LAN Ethernet |
-| RestrictEvents.kext | driver frekuensi variabel CPU |
+| RestrictEvents.kext | blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features |
 | SerialMouse.kext | enabling serial mice that use the Microsoft Serial Mouse protocol |
 | ThermalSolution.kext | Set thermal mode by UUID |
 | HoRNDIS.kext | Jaringan Berbagi USB Android |
