@@ -115,7 +115,7 @@ Boot -> Launch CSM | Disable
 
 ## 📔 Sedikit Catatan :
 
-### Kosmetik
+### `Kosmetik`
 
 melewati menu boot OC setelah mesin memuat bootx64.efi?
 
@@ -133,26 +133,27 @@ Setel showpicker = False
 
 
 
-### Bluetooth menggunakan AR3012 (Azurewave Tech)
-Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext
+### `Bluetooth menggunakan AR3012 (Azurewave Tech)`
+Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan` Kext Ath3BT.kext dan IOath3kfrmwr.kext`
 
-### Wifi menggunakan AR9565 / AR956X di Catalina
+### `Wifi menggunakan AR9565 / AR956X di Catalina`
 Setelah membuat Catalina bekerja di mesin saya, masalah terbesar adalah membuat kecepatan wifi benar-benar berfungsi. 
 
-### Membuat touchpad dan tombol berfungsi
-https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/ menunjukkan solusi untuk membuat touchpad berfungsi. 
+### `Membuat touchpad dan tombol berfungsi`
+```https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/``` menunjukkan solusi untuk membuat touchpad berfungsi. 
 
-### Legalitas Hackintosh
+### `Legalitas Hackintosh`
 Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
 
-### Perjanjian Lisensi Pengguna
+### `Perjanjian Lisensi Pengguna`
 Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
 
-Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. **GUNAKAN DENGAN RISIKO ANDA SENDIRI**
+```
+Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. GUNAKAN DENGAN RISIKO ANDA SENDIRI
+```
+## :man_facepalming: `Masalah Luar Biasa`
 
-## :man_facepalming: Masalah Luar Biasa
-
-### Membuat touchpad dan tombol benar benar berfungsi 
+### `Membuat touchpad dan tombol benar benar berfungsi`
 Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan tombol berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
 
  
