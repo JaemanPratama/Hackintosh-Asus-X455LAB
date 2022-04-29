@@ -134,14 +134,8 @@ Boot -> Launch CSM | Disable
 
 
 
-### `Bluetooth menggunakan AR3012 (Azurewave Tech)`
-Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan` Kext Ath3BT.kext dan IOath3kfrmwr.kext`
 
-### `Wifi menggunakan AR9565 / AR956X di Catalina`
-Setelah membuat Catalina bekerja di mesin saya, masalah terbesar adalah membuat kecepatan wifi benar-benar berfungsi. 
 
-### `Membuat touchpad dan tombol berfungsi`
-```https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/``` menunjukkan solusi untuk membuat touchpad berfungsi. 
 
 ### `Legalitas Hackintosh`
 Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
@@ -154,8 +148,14 @@ Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil
 ```
 ## :man_facepalming: **Masalah Luar Biasa**
 
-### `Membuat touchpad dan tombol benar benar berfungsi`
-Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan tombol berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
+### `Membuat touchpad dan keyboard benar benar berfungsi`
+Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. ***Masih mencoba mencari solusi di luar sana.***
+
+### `Membuat kecepatan wifi benar benar berfungsi seperti aslinya`
+Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya. 
+
+### `Memaksakan mematikan bluetooth`
+Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan` Kext Ath3BT.kext dan IOath3kfrmwr.kext` Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
 
  
 ### ℹ️ Informasi System :
