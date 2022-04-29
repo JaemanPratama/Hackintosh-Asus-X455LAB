@@ -42,6 +42,37 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - [x] Bigsur (Tested, Opencore, Online Installer)
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
 
+
+## deskripsi direktori kexts (driver)
+| Kext | Deskripsi |
+|----------------------------|--------------------------------------------------------------------------------------------------------------|
+| ACPIPoller.kext | Configuration and Power Interface (ACPI) based polling kernel extension |
+| AirPortAtheros40.kext | WiFi Atheros network|
+| AppleALC.kext | Driver kartu suara |
+| ApplePS2SmartTouchPad.kext | Keyboard, touchpad dan driver mouse |
+| AsusNBFnKeys.kext | Fn Keys ASUS |
+| Ath3kBT.kext | Atheros Bluetooth Firmwares |
+| Ath3kBTInjector.kext | Atheros Bluetooth Injector |
+| CPUFriend.kext | Dynamic power management |
+| CpuTscSync.kext | Sync all cores TSC |
+| Lilu.kext | Patch engine |
+| ECEnabler.kext | Reading EC battery status |
+| FeatureUnlock.kext | Unlock Features macOS |
+| HibernationFixup.kext | Fix RTC variables and NVRAM |
+| HS80211Family.kext | 80211 network |
+| RealtekRTL8111.kext | Realtek LAN Ethernet |
+| RestrictEvents.kext | driver frekuensi variabel CPU |
+| SerialMouse.kext | enabling serial mice that use the Microsoft Serial Mouse protocol |
+| ThermalSolution.kext | Set thermal mode by UUID |
+| HoRNDIS.kext | Jaringan Berbagi USB Android |
+| USBToolBox.kext | USB ports configuration |
+| UTBMap.kext | USB ports configuration |
+| VirtualSMC.kext | SMC emulator Processor,Fan,Battery,Light |
+| WhateverGreen.kext | Video patches |
+| WifiLocFix.kext | fix Locale & Country Code |
+
+
+
 ## 💪 Peningkatan
 
 ### SSD MidasForce Sata 256 GB
