@@ -17,11 +17,6 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 
 
 
-
-
-
-
-
 | 💻 Spesifikasi | 👍 Komponen yang Berfungsi | ⛔ Komponen Tidak Berfungsi |
 |--|--|--|
 | Intel HD 5500 | :white_check_mark: Intel HD 5500 1536mb | :x: AirDrop, Handoff, Continuity |
@@ -53,11 +48,17 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
 - [x] Sierra (Tested, Opencore, Olarila, Installer) 
+- `Tidak Direkomendasikan`
 - [x] High Sierra (Tested, Opencore, Olarila Installer) 
+- `Tidak Direkomendasikan`
 - [x] Mojave (Tested, Opencore, Online Installer)
+- `Direkomendasikan`
 - [x] Catalina (Tested, Opencore, Online Installer)
+- `Direkomendasikan`
 - [x] Bigsur (Tested, Opencore, Online Installer)
+- `Direkomendasikan`
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
+- `Tidak Direkomendasikan`
 
 
 ## deskripsi direktori kexts (driver)
