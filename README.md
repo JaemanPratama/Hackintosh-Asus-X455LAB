@@ -117,12 +117,13 @@ Boot -> Launch CSM | Disable
 
 ### `Kosmetik`
 
-melewati menu boot OC setelah mesin memuat bootx64.efi?
+<details>
+<summary>Otomatis boot dengan logo apple saat dinyalakan? </summary>
 
+<img src="http://www.alecjacobson.com/weblog/media/apple-logo-startup-screen.gif" width="50%" height="50%">
+</details>
 
-
-<img src="https://www.tonymacx86.com/attachments/screen-shot-2020-04-24-at-9-57-47-pm-png.483725/" width="50%" height="50%">
-Setel showpicker = False
+**Setel showpicker = False**
 
 
 
