@@ -136,9 +136,10 @@ Boot -> Launch CSM | Disable
 
 
 
-<img src="https://user-images.githubusercontent.com/89202419/164737854-dd77acfc-0543-4d0b-a6cd-3a8ca1719744.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/89202419/164737854-dd77acfc-0543-4d0b-a6cd-3a8ca1719744.png#gh-light-mode-only" width="50%" height="50%">
 
 
+<img src="https://user-images.githubusercontent.com/89202419/166134177-b30b2d1f-63e8-4c20-a620-5a418d68fca7.png#gh-dark-mode-only" width="50%" height="50%">
 
 
 
