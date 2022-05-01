@@ -1,9 +1,13 @@
-<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/89202419/166092270-2be61f08-ae59-4e4c-9613-b9d20262d409.png">
+<img align="left" width="80" height="90" src="https://user-images.githubusercontent.com/89202419/166133212-8eeab73a-2600-4fb2-bf59-5f6bbc996dad.png#gh-light-mode-only">
 
+<img align="left" width="80" height="90" src="https://user-images.githubusercontent.com/89202419/166133471-6976f2b1-1b2c-4263-924d-e10991507e30.png#gh-dark-mode-only">
 
 ## ASUS A455LA / X455LA WX668D Opencore Hackintosh
 
 ***OpenCore EFI untuk Asus X455LA*** 
+
+
+
 
 
 
@@ -15,8 +19,9 @@
 > :warning: **PERINGATAN:**
 Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortania.github.io/getting-started/) sebelum melakukan apa pun. Saya tidak bertanggung jawab atas kerusakan apa pun. Konfigurasi OpenCore ini dioptimalkan untuk perangkat keras khusus saya, jadi harap gunakan hanya sebagai referensi atau jika Anda memiliki perangkat keras yang sama/serupa.!
 
-<img src="https://user-images.githubusercontent.com/89202419/166002855-8d96a3a2-bc06-4173-80f5-3c17eadb5c23.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/89202419/166002855-8d96a3a2-bc06-4173-80f5-3c17eadb5c23.png#gh-light-mode-only" width="50%" height="50%">
 
+<img src="https://user-images.githubusercontent.com/89202419/166133645-eeff932b-2be4-4542-a322-989122b623b4.png#gh-dark-mode-only" width="50%" height="50%">
 
 
 
