@@ -1,11 +1,10 @@
-<img align="left" width="80" height="90" src="https://user-images.githubusercontent.com/89202419/166133212-8eeab73a-2600-4fb2-bf59-5f6bbc996dad.png#gh-light-mode-only">
+<img align="left" width="80" height="90" src="https://user-images.githubusercontent.com/89202419/166133932-f82c08c0-5470-4135-afee-6e23591a8344.png#gh-light-mode-only">
 
 <img align="left" width="80" height="90" src="https://user-images.githubusercontent.com/89202419/166133471-6976f2b1-1b2c-4263-924d-e10991507e30.png#gh-dark-mode-only">
 
 ## ASUS A455LA / X455LA WX668D Opencore Hackintosh
 
 ***OpenCore EFI untuk Asus X455LA*** 
-
 
 
 
