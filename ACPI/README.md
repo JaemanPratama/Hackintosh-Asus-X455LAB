@@ -71,22 +71,42 @@ Mengapa?: Pencarian `Processor` di DSDT, ganti nama `PR` ke variabel lain sesuai
 
 > ### SSDT-ACAP
 
+- Beberapa implementasi ACPI adaptor AC tidak memberi tahu host ACPI perubahan status adaptor AC.
+
+- SSDT ini dapat digunakan untuk memperbaikinya dengan memasangkan dengan ACPIPoller.kext.
+
 > ### SSDT-ALS0
+
+- Perangkat sensor cahaya ambient palsu
 
 > ### SSDT-BATT
 
+- Antarmuka Daya untuk Asus X455L
+
 > ### SSDT-FAN
+
+- kontrol kipas khusus pada laptop ASUS `Hanya Kosmetik Untuk Laptop Ini`
 
 > ### SSDT-GPRW
 
+- Patch Bangun Instan
+
 > ### SSDT-HPET
+
+- Memperbaiki Konflik IRQ
 
 > ### SSDT-MEM2
 
-> ### SSDT-PS2K
+- Menambahkan MEM2 di Acpi
+
+> ### SSDT-Fn-Brightness
 
 > ### SSDT-PWRB
 
+- Menambahkan PWRB di Acpi
+
 > ### SSDT-SBUS-MCHC
+
+- Memperbaiki dukungan SMBus
 
 
