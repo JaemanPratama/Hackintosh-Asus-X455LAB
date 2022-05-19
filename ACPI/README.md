@@ -101,6 +101,8 @@ Mengapa?: Pencarian `Processor` di DSDT, ganti nama `PR` ke variabel lain sesuai
 
 > ### SSDT-Fn-Brightness
 
+- perbaiki kecerahan dengan kunci fn 
+
 > ### SSDT-PWRB
 
 - Menambahkan PWRB di Acpi
