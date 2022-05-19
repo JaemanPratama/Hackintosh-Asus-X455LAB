@@ -81,10 +81,6 @@ Mengapa?: Pencarian `Processor` di DSDT, ganti nama `PR` ke variabel lain sesuai
 
 - Perangkat sensor cahaya ambient palsu
 
-> ### SSDT-BATT
-
-- Antarmuka Daya untuk Asus X455L
-
 > ### SSDT-FAN
 
 - kontrol kipas khusus pada laptop ASUS `Hanya Kosmetik Untuk Laptop Ini`
