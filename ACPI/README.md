@@ -55,7 +55,9 @@ Mengapa?: Pencarian `Processor` di DSDT, ganti nama `PR` ke variabel lain sesuai
     }
 ```
 
-> ### SSDT-PNLF - Mengaktifkan Manajemen Kecerahan di macOS
+> ### SSDT-PNLF 
+ 
+- Mengaktifkan Manajemen Kecerahan di macOS
 
 ### SSDT-EC-LAPTOP - Buat pengontrol tertanam palsu yang disebut `EC`
 
