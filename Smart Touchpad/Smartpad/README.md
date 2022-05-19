@@ -15,3 +15,6 @@
 
 ### Apa yang diubah di ConfigGestureBetaV2?
 - Fix After Typing, Touchpad like disable
+
+### Apa yang diubah di ConfigGestureR1?
+- Add Gesture, Show Desktop
