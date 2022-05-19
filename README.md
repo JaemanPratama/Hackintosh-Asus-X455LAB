@@ -172,7 +172,7 @@ Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil
  
 ### `Memaksakan mematikan bluetooth`
 <details>
-<summary>Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan `Kext Ath3BT.kext dan IOath3kfrmwr.kext` Tetapi jika ***terlalu memaksakan Mematikan Bluetooth di Prefensi System*** itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
+<summary>Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
  </summary>
  
 <img src="https://user-images.githubusercontent.com/89202419/169351491-c236bd1b-2c77-4249-8897-bc018b2351ec.png">
