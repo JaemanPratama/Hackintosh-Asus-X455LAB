@@ -59,7 +59,7 @@ Mengapa?: Pencarian `Processor` di DSDT, ganti nama `PR` ke variabel lain sesuai
  
 - Mengaktifkan Manajemen Kecerahan di macOS
 
-### SSDT-EC-LAPTOP - Buat pengontrol tertanam palsu yang disebut `EC`
+> ### SSDT-EC-LAPTOP - Buat pengontrol tertanam palsu yang disebut `EC`
 
 - EC yang ada mungkin tidak kompatibel dengan macOS, jadi yang palsu dibuat.
 
