@@ -66,5 +66,7 @@ Biarkan penginstal selesai dan boot ke Windows.
 Setelah semuanya selesai, Anda sekarang memiliki peralihan BootCamp! Seharusnya ada ikon BootCamp kecil di baki Anda sekarang sehingga Anda dapat memilih drive mana yang akan di-boot.
 
 
+__Fix Dual Boot__ :
 
+- Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/ 
 
