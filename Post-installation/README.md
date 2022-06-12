@@ -1,30 +1,42 @@
- ## Catat Ini  
- 
- Harap dicatat bahwa jika Anda belum menginstal macOS, Saya sarankan Anda mengikuti panduan penginstalan [Dortania Opencore](https://dortania.github.io/OpenCore-Install-Guide/)
- 
-__USB Mapping__ :
+ ### Post Installation
 
-- USB Mapping: https://github.com/corpnewt/USBMap
+- Nonaktifkan Hibernasi: Hibernasi (tangguhkan ke disk atau S4 tidur) tidak didukung di hackintosh. itu bisa menyebabkan masalah jika Anda tidak menonaktifkannya.
 
-__Fix iServices__ :
+```sh
 
-- Fix iServices: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html
+$ sudo pmset -a hibernatemode 0
 
+$ sudo rm /var/vm/sleepimage
 
-__Fix Dual Boot__ :
+$ sudo mkdir /var/vm/sleepimage
 
-- Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/  
+$ sudo pmset -a standby 0
 
-
-__Retina Display__ :
-- Mengaktifkan Retina Display: https://github.com/usr-sse2/RDM/releases/tag/2.5.0
+$ sudo pmset -a autopoweroff 0
 
 
-__Updating OpenCore__ :
-- Update Opencore: https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore
+```
 
+- Jika Anda telah Menginstal MacOS di SSD, Aktifkan TRIM menggunakan perintah berikut:
 
-__FileVault__ :
-- Setting FileVault: https://dortania.github.io/OpenCore-Post-Install/universal/security/filevault.html
+```sh
+
+$ sudo trimforce enable
+
+```
+
+### Mengaktifkan macOS HiDPI
+
+Skrip ini dapat mensimulasikan macOS HiDPI pada layar non-retina, dan memiliki Skala "Asli" di Preferensi Sistem.
+Beberapa perangkat memiliki masalah bangun, opsi kedua skrip dapat membantu, itu menyuntikkan EDID yang ditambal, tetapi masalah lain mungkin ada di sini.
+Penskalaan logo mungkin tidak terselesaikan, karena resolusi yang lebih tinggi dipalsukan.
+
+<img height="450" width="750" src="http://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT5266/HT5266-mbp_13-%20%20yosemite-002-en.png">
+
+### Penggunaan
+Download dan gunakan Alat Ini :
+```
+https://github.com/usr-sse2/RDM/releases/tag/2.5.0
+```
 
 ### [Untuk Lebih Lengkapnya ](https://dortania.github.io/OpenCore-Post-Install/)
