@@ -122,7 +122,7 @@ Boot -> Launch CSM | Disable
 
 ## 📔 Sedikit Catatan :
 
-### `Kosmetik`
+### 1. Kosmetik :
 
 <details>
 <summary>Otomatis boot dengan logo apple saat dinyalakan? </summary>
@@ -142,22 +142,28 @@ Boot -> Launch CSM | Disable
 <img src="https://user-images.githubusercontent.com/89202419/166134177-b30b2d1f-63e8-4c20-a620-5a418d68fca7.png#gh-dark-mode-only" width="50%" height="50%">
 
 
-### Catatan Kecil Untuk MacOS Monterey 
-
-Jika Model Wifi anda masih menggunakan seri atheros, Anda harus menonaktifkan kext HS80211Family.kext, WifiLocFix.kext, AirPortAtheros40.kext, Ath3kBT.kext karena model wifi seri atheros tidak akan berfungsi di monterey
+### 2. Catatan Kecil Untuk Wifi Atheros :
 
 <details>
-<summary>Contoh Gambar</summary>
+<summary>MacOS Monterey</summary>
 
+##### Jika Model Wifi anda masih menggunakan seri atheros, Anda harus menonaktifkan kext HS80211Family.kext, WifiLocFix.kext, AirPortAtheros40.kext, Ath3kBT.kext karena model wifi seri atheros tidak akan berfungsi di monterey
 
-<img width="60%" height="70%" src="https://user-images.githubusercontent.com/89202419/175806528-6b31dcf2-0a6e-4b21-8c1f-455a86fc3728.png">
+ 
+<img width="100%" height="100%" src="https://user-images.githubusercontent.com/89202419/175806528-6b31dcf2-0a6e-4b21-8c1f-455a86fc3728.png">
+</details>
+
+<details>
+<summary>MacOS High Sierra</summary>
+
+ #### download Kext ini https://www.olarila.com/topic/9229-guide-wifi-atheros-ar9565-ar9462-ar9463-ar9485-on-mojave-and-catalina/ Dan Pasang Menggunakan KextUtility 
 </details>
 
 
-### `Legalitas Hackintosh`
+### Legalitas Hackintosh :
 Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
 
-### `Perjanjian Lisensi Pengguna`
+### Perjanjian Lisensi Pengguna :
 Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
 
 ```
@@ -165,21 +171,21 @@ Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil
 ```
 ## :man_facepalming: **Masalah Luar Biasa**
 
-### `Membuat touchpad dan keyboard benar benar berfungsi`
+### Membuat touchpad dan keyboard benar benar berfungsi :
 <details>
  <summary>Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana. </summary>
 
 <img height=250 src="https://www.tonymacx86.com/attachments/screen-shot-2019-01-02-at-6-57-13-pm-png.376412/">
 </details>
  
-### `Membuat kecepatan wifi benar benar berfungsi seperti aslinya`
+### Membuat kecepatan wifi benar benar berfungsi seperti aslinya :
 <details>
 <summary>Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
  
 <img src="https://user-images.githubusercontent.com/89202419/169350954-1e9dd13f-6408-4b7a-88e7-631ad1cce277.png">
 </details>
  
-### `Memaksakan mematikan bluetooth`
+### Memaksakan mematikan bluetooth :
 <details>
 <summary>Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
  </summary>
