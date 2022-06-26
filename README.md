@@ -142,7 +142,16 @@ Boot -> Launch CSM | Disable
 <img src="https://user-images.githubusercontent.com/89202419/166134177-b30b2d1f-63e8-4c20-a620-5a418d68fca7.png#gh-dark-mode-only" width="50%" height="50%">
 
 
+### Catatan Kecil Untuk MacOS Monterey 
 
+Jika Model Wifi anda masih menggunakan seri atheros, Anda harus menonaktifkan kext HS80211Family.kext, WifiLocFix.kext, AirPortAtheros40.kext, Ath3kBT.kext karena model wifi seri atheros tidak akan berfungsi di monterey
+
+<details>
+<summary>Contoh Gambar</summary>
+
+
+<img width="60%" height="70%" src="https://user-images.githubusercontent.com/89202419/175806528-6b31dcf2-0a6e-4b21-8c1f-455a86fc3728.png">
+</details>
 
 
 ### `Legalitas Hackintosh`
