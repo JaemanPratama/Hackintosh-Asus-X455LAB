@@ -112,17 +112,20 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 - [x] Sierra (Tested, Opencore, Olarila, Installer) 
 - `Tidak Direkomendasikan`
-- - wifi
+  - Wifi harus dipasang di S/L/E (system/library/extension), sleep terkadang gagal
 - [x] High Sierra (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
+  - Wifi harus dipasang di S/L/E (system/library/extension), sleep terkadang gagal
 - [x] Mojave (Tested, Opencore, Online Installer)
 - `Direkomendasikan`
 - [x] Catalina (Tested, Opencore, Online Installer)
 - `Direkomendasikan`
 - [x] Bigsur (Tested, Opencore, Online Installer)
 - `Direkomendasikan`
+  - Bagi Pengguna wifi atheros bar menu wifi hanya menunjukkan  sinyal wifi lemah
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
+  - Bagi Pengguna wifi atheros, wifi/bluetooth tidak berjalan ( EOL )
 
 
 
