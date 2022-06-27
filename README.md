@@ -112,6 +112,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 - [x] Sierra (Tested, Opencore, Olarila, Installer) 
 - `Tidak Direkomendasikan`
+- - wifi
 - [x] High Sierra (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
 - [x] Mojave (Tested, Opencore, Online Installer)
