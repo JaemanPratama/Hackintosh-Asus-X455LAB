@@ -23,33 +23,89 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 <img src="https://user-images.githubusercontent.com/89202419/166133645-eeff932b-2be4-4542-a322-989122b623b4.png#gh-dark-mode-only" width="50%" height="50%">
 
 
+```
+Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini
+EFI ini bisa saja tidak stabil di laptop anda
+Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini
+GUNAKAN DENGAN RISIKO ANDA SENDIRI !
+```
 
-| 💻 Spesifikasi | 👍 Komponen yang Berfungsi | ⛔ Komponen Tidak Berfungsi |
-|--|--|--|
-| Intel HD 5500 | :white_check_mark: Intel HD 5500 1536mb | :x: AirDrop, Handoff, Continuity |
-| Conexant CX20751/2 | :white_check_mark: Speaker Internal Dan Mikrofon Internal | |
-| Layar 14 Inch HD LED 1366x768 | :white_check_mark: Penyesuaian kecerahan layar | |
-| Realtek RTL8111GU PCI Express Gigabit Ethernet | :white_check_mark: port Ethernet | |
-| HDMI | :white_check_mark: Port HDMI | |
-| AR9565/QCA956X | :white_check_mark: Wifi | |
-| Bluetooth AR3012 (Azurewave Tech) | :white_check_mark: Bluetooth | |
-| PS2 Keyboard & ETD0108 Focaltech Touchpad | :white_check_mark: Keyboard Internal Dan Touchpad Internal | | 
-| Kamera Internal | :white_check_mark: Kamera Internal | |
-| SSD MidasForce 256 GB SATA | :white_check_mark: Pembacaan SSD Di Menu Recovery | |
-| 4 + 2 GB 1600 MHz DDR3 | :white_check_mark: Pembacaan Ram |  |
-| 2.0GHz Intel Core i3-5005U | :white_check_mark: akselerasi grafis |  |
-| Alcor Micro USB Card Reader | 🤔 Pembacaan Kartu SD | |
-| DVD Internal | :white_check_mark: Pembacaan DVD | |
-| Baterai Internal | :white_check_mark: Pembacaan Presentase Baterai Internal | |
-| Bootloader | :white_check_mark: Opencore 0.8.0 | |
-| | :white_check_mark: Tidur Dan Bangun | |
-| | :white_check_mark: iMessage Dan Facetime | |
-| | :white_check_mark: Pembacaan Fan, Jika Memakai [AsusSMC.kext](https://github.com/hieplpvip/AsusSMC/releases) | |
-| | :white_check_mark: USB C/3.0 | |
-| | :white_check_mark: Boot Mode Aman | |
-| | :white_check_mark: Mengaktifkan FileVault | |
-| | :white_check_mark: Dual Boot Dengan Windows 10 | |
 
+
+### Hardware :
+
+
+| **Category**   | **Component**                 		
+|----------------|--------------------------------------|
+|**CPU**		       |2.0GHz Intel Core i3-5005U	 		            |										      
+|**GPU**		       |Intel HD 5500				     		 										       |
+|**RAM**         |4 + 2 GB 1600 MHz DDR3               		   |
+|**SDD**         |MidasForce 256 GB SATA	 		                |
+|**Layar**       |14 Inch HD LED	1366x768	 		               |										      
+|**Wi-Fi/BT**    |AR9565/AR956X	  			     		                |	     
+|**Bluetooth**   |3012	  			     		                         | 	  
+|**Ethernet**    |Realtek RTL8111				 		                    |										      
+|**Audio** 		    |Conexant CX20751/2				 		                 |
+|**Input**       |PS2 Keyboard & ETD0108 Focaltech Touchpad |										      
+
+
+
+### Tidak Berfungsi :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Airdrop                              | ❌   | Tidak berfungsi dengan wifi atheros. |
+| Pembaca Kartu                        | ❌   | Tidak diuji. |
+| Port VGA                             | ❌   | Tidak diuji. |
+
+### Video dan Audio
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Akselerasi Grafis Penuh (QE/CI)      | ✅   | `WhateverGreen.kext`  |
+| Port HDMI                            | ✅   | `WhateverGreen.kext`  |
+| Kamera internal                      | ✅   | `SSDT-HCK.aml`            |
+| DVD internal                         | ✅   | `SSDT-HCK.aml`            |
+| Rekaman Audio                        | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+| Pemutaran Audio                      | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+| Pengalihan Output Headphone Otomatis | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+| Port Audio.                          | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+
+
+### Daya, Isi Daya, Tidur, dan Hibernasi :
+
+| Feature                              | Status | Dependency.         |
+| :----------------------------------- | ------ | ------------------- |
+| Indikator Persentase Baterai         | ✅   | `ECEnabler.kext`            | 
+| iGPU Power Management                | ✅   | `XCPM`, diaktifkan dengan [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
+| XHCI Sleep                           | ✅   | `SSDT-HCK.aml` |  |   
+
+
+### Input/ Output
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| WiFi                                 | ✅   | `AirPortAtheros40.kext`  |
+| Bluetooth                            | ✅   | `Ath3kBT.kext`  |
+| Ethernet                             | ✅   | `RealtekRTL8111.kext`  |
+| USB 2.0, USB 3.0                     | ✅   | `USBToolBox.kext`    |
+
+### Display, TrackPad, dan Keyboard :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Penyesuaian Kecerahan  | ✅  | `WhateverGreen.kext`, `SSDT-HCK.aml`|
+| TrackPad               | ✅  | `ApplePS2SmartTouchPad.kext` |
+| Papan Ketik bawaan     | ✅  | `ApplePS2SmartTouchPad.kext` |
+| Multimedia Keys        | ✅  | `AsusFnKeys.kext`, `SSDT-HCK.aml`, `Patch OC`|
+
+### macOS Continuity :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| iCloud, iMessage, FaceTime           | ✅   | ID Apple yang Masuk Daftar Putih, SMBIOS yang Valid  |
+| Time Machine                         | ✅   | Bawaan  |
+| Night Vission                        | ✅   | Bawaan  |
 
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
@@ -66,35 +122,6 @@ Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortan
 - `Direkomendasikan`
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
-
-
-## deskripsi direktori kexts (driver)
-| Kext | Deskripsi |
-|----------------------------|--------------------------------------------------------------------------------------------------------------|
-| ACPIPoller.kext | Configuration and Power Interface (ACPI) based polling kernel extension |
-| AirPortAtheros40.kext | WiFi Atheros network|
-| AppleALC.kext | Driver kartu suara |
-| ApplePS2SmartTouchPad.kext | Keyboard, touchpad dan driver mouse |
-| AsusNBFnKeys.kext | Fn Keys ASUS |
-| Ath3kBT.kext | Atheros Bluetooth Firmwares |
-| Ath3kBTInjector.kext | Atheros Bluetooth Injector |
-| CPUFriend.kext | Dynamic power management |
-| CpuTscSync.kext | Sync all cores TSC |
-| Lilu.kext | Patch engine |
-| ECEnabler.kext | Reading EC battery status |
-| FeatureUnlock.kext | Unlock Features macOS |
-| HibernationFixup.kext | Fix RTC variables and NVRAM |
-| HS80211Family.kext | 80211 network |
-| RealtekRTL8111.kext | Realtek LAN Ethernet |
-| RestrictEvents.kext | blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features |
-| SerialMouse.kext | enabling serial mice that use the Microsoft Serial Mouse protocol |
-| ThermalSolution.kext | Set thermal mode by UUID |
-| HoRNDIS.kext | Jaringan Berbagi USB Android |
-| USBToolBox.kext | USB ports configuration |
-| UTBMap.kext | USB ports configuration |
-| VirtualSMC.kext | SMC emulator Processor,Fan,Battery,Light |
-| WhateverGreen.kext | Video patches |
-| WifiLocFix.kext | fix Locale & Country Code |
 
 
 
@@ -120,6 +147,7 @@ USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
 SATA Mode | AHCI
 Boot -> Launch CSM | Disable 
 
+
 ## 📔 Sedikit Catatan :
 
 ### 1. Kosmetik :
@@ -142,33 +170,29 @@ Boot -> Launch CSM | Disable
 <img src="https://user-images.githubusercontent.com/89202419/166134177-b30b2d1f-63e8-4c20-a620-5a418d68fca7.png#gh-dark-mode-only" width="50%" height="50%">
 
 
-### 2. Catatan Kecil Untuk Wifi Atheros :
+### 2. Catatan Pengguna Wifi Atheros :
 
 <details>
 <summary>MacOS Monterey</summary>
 
 ##### Jika Model Wifi anda masih menggunakan seri atheros, Anda harus menonaktifkan kext HS80211Family.kext, WifiLocFix.kext, AirPortAtheros40.kext, Ath3kBT.kext karena model wifi seri atheros tidak akan berfungsi di monterey
 
- 
 <img width="100%" height="100%" src="https://user-images.githubusercontent.com/89202419/175806528-6b31dcf2-0a6e-4b21-8c1f-455a86fc3728.png">
 </details>
 
 <details>
 <summary>MacOS High Sierra</summary>
 
- #### download Kext ini https://www.olarila.com/topic/9229-guide-wifi-atheros-ar9565-ar9462-ar9463-ar9485-on-mojave-and-catalina/ Dan Pasang Menggunakan KextUtility 
+#### download Kext di video youtube ini https://www.youtube.com/watch?v=RBszAlDaK84 Dan Pasang Menggunakan KextUtility 
 </details>
 
+### Legalitas Hackintosh :
 
-### 3. Legalitas Hackintosh :
 Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
 
-### 4. Perjanjian Lisensi Pengguna :
 Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
 
-```
-Jika Anda memilih untuk menggunakan EFI ini, berarti Anda setuju untuk mengambil risiko menggunakan EFI ini. EFI ini bisa saja tidak stabil di laptop anda,Ini dapat merusak laptop Anda dan perlu mengirimkannya untuk diperbaiki. Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI ini. GUNAKAN DENGAN RISIKO ANDA SENDIRI
-```
+
 ## :man_facepalming: **Masalah Luar Biasa**
 
 ### Membuat touchpad dan keyboard benar benar berfungsi :
