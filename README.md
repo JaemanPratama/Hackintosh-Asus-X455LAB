@@ -132,20 +132,20 @@ Mengganti HDD dengan SSD agar meningkatkan Peforma dan Juga Drive boot utama unt
 
 ## 🔍 Konfigurasi Bios :
 
-Bagian di bawah ini diadaptasi dari @asepms92 [Hackintosh-ASUS-A455LF-Notebook](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/blob/master/README.md). Ini sangat besar, karena saya tidak pernah tahu cara mengakses semua pengaturan lanjutan di BIOS saya.
+Bagian di bawah ini diadaptasi dari @asepms92 [Hackintosh-ASUS-A455LF-Notebook](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/blob/master/README.md)
 
 **Cara Memasuki Bios:**\
 Tekan **F2** 
 
-Konfigurasi Bios | Setting 
+Bios Config | Setting 
 :---:| :---:
-Security -> Secure Boot | Disable
-Intel Virtualization    | Enable
-VT-d | Enable
-Graphics Configuration -> DVMT Pre-Allocation | 32M
-USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
+Security -> Secure Boot | Disabled
+Intel Virtualization    | Enabled OK / Disabled if you have issues
+VT-d | Disabled / Enabled with boot-args "dart=0"
+Graphics Configuration -> DVMT Pre-Allocation | 64M / default 32M but need pre-alloc patches
+USB Configuration -> XHCI Pre-Boot Mode | Enabled / Smart Auto if using EHCI device
 SATA Mode | AHCI
-Boot -> Launch CSM | Disable 
+Boot -> Launch CSM | Enabled or Disabled for Resolution Boot OC
 
 
 ## 📔 Sedikit Catatan :
