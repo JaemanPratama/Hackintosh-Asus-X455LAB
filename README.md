@@ -58,7 +58,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Pembaca Kartu                        | ❌   | Tidak diuji. |
 | Port VGA                             | ❌   | Tidak diuji. |
 
-### Video dan Audio
+### Video dan Audio :  
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -81,7 +81,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | XHCI Sleep                           | ✅   | `SSDT-HCK.aml` |  |   
 
 
-### Input/ Output
+### Input/ Output :
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
