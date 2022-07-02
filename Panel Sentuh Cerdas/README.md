@@ -61,3 +61,8 @@ Versi Beta  | Beta V1
 :-------------------------:|:-------------------------:
 [ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBeta.zip) | [ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBetaV1.zip)
 
+
+
+https://user-images.githubusercontent.com/89202419/177010661-e0dc61bd-dd57-4b7f-9ba8-63436535a873.mp4
+
+
