@@ -49,18 +49,9 @@ Geser ke bawah dengan tiga jari | Membuka APP EXPOSE
 Geser ke kiri atau kanan dengan tiga jari | berpindah antara desktop dan aplikasi layar penuh
 Klik atau ketuk dengan dua jari | klik kanan
 Gesek ke kiri dari tepi kanan dengan dua jari | menampilkan Pusat Pemberitahuan
-Klik 5 jari | menampilkan Desktop
+buka 4 jari | menampilkan Desktop
 Jepit 5 jari | Membuka Launchpad
-
-
-Versi Stabil  
-:-------------------------:
-[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureStable.zip)
-
-Versi Beta  | Beta V1
-:-------------------------:|:-------------------------:
-[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBeta.zip) | [ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBetaV1.zip)
-
+klik 3 jari | Membuka Pencarian Cerdas
 
 
 https://user-images.githubusercontent.com/89202419/177010661-e0dc61bd-dd57-4b7f-9ba8-63436535a873.mp4
