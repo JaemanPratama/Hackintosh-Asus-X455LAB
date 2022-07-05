@@ -2,9 +2,9 @@
 
 <img align="left" width="80" height="90" src="https://user-images.githubusercontent.com/89202419/166133471-6976f2b1-1b2c-4263-924d-e10991507e30.png#gh-dark-mode-only">
 
-## ASUS A455LA / X455LA WX668D Opencore Hackintosh
+## ASUS A455L / X455L Series  Opencore Hackintosh
 
-***OpenCore EFI untuk Asus X455LA*** 
+***OpenCore EFI untuk Asus A455L / X455L Series *** 
 
 
 
