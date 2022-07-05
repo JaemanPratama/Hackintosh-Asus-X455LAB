@@ -4,7 +4,7 @@
 
 ## ASUS A455L / X455L Series  Opencore Hackintosh
 
-***OpenCore EFI untuk Asus A455L / X455L Series *** 
+***OpenCore EFI untuk Asus A455L / X455L Series*** 
 
 
 
