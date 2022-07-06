@@ -32,81 +32,6 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 
 
-### Hardware :
-
-
-| **Category**   | **Component**                 		
-|----------------|--------------------------------------|
-|**CPU**		       |2.0GHz Intel Core i3-5005U	 		            |										      
-|**GPU**		       |Intel HD 5500				     		 										       |
-|**RAM**         |4 + 2 GB 1600 MHz DDR3               		   |
-|**SDD**         |MidasForce 256 GB SATA	 		                |
-|**Layar**       |14 Inch HD LED	1366x768	 		               |										      
-|**Wi-Fi/BT**    |AR9565/AR956X	  			     		                |	     
-|**Bluetooth**   |3012	  			     		                         | 	  
-|**Ethernet**    |Realtek RTL8111				 		                    |										      
-|**Audio** 		    |Conexant CX20751/2				 		                 |
-|**Input**       |PS2 Keyboard & ETD0108 Focaltech Touchpad |										      
-
-
-
-### Tidak Berfungsi :
-
-| Feature                              | Status | Dependency          |
-| :----------------------------------- | ------ | ------------------- |
-| Airdrop                              | ❌   | Tidak berfungsi dengan wifi atheros. |
-| Pembaca Kartu                        | ❌   | Tidak diuji. |
-| Port VGA                             | ❌   | Tidak diuji. |
-
-### Video dan Audio :  
-
-| Feature                              | Status | Dependency          |
-| :----------------------------------- | ------ | ------------------- |
-| Akselerasi Grafis Penuh (QE/CI)      | ✅   | `WhateverGreen.kext`  |
-| Port HDMI                            | ✅   | `WhateverGreen.kext`  |
-| Kamera internal                      | ✅   | `SSDT-HCK.aml`            |
-| DVD internal                         | ✅   | `SSDT-HCK.aml`            |
-| Rekaman Audio                        | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
-| Pemutaran Audio                      | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
-| Pengalihan Output Headphone Otomatis | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
-| Port Audio.                          | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
-
-
-### Daya, Isi Daya, Tidur, dan Hibernasi :
-
-| Feature                              | Status | Dependency.         |
-| :----------------------------------- | ------ | ------------------- |
-| Indikator Persentase Baterai         | ✅   | `ECEnabler.kext`            | 
-| iGPU Power Management                | ✅   | `XCPM`, diaktifkan dengan [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
-| XHCI Sleep                           | ✅   | `SSDT-HCK.aml` |  |   
-
-
-### Input/ Output :
-
-| Feature                              | Status | Dependency          |
-| :----------------------------------- | ------ | ------------------- |
-| WiFi                                 | ✅   | `AirPortAtheros40.kext`  |
-| Bluetooth                            | ✅   | `Ath3kBT.kext`  |
-| Ethernet                             | ✅   | `RealtekRTL8111.kext`  |
-| USB 2.0, USB 3.0                     | ✅   | `USBToolBox.kext`    |
-
-### Display, TrackPad, dan Keyboard :
-
-| Feature                              | Status | Dependency          |
-| :----------------------------------- | ------ | ------------------- |
-| Penyesuaian Kecerahan  | ✅  | `WhateverGreen.kext`, `SSDT-HCK.aml`|
-| TrackPad               | ✅  | `ApplePS2SmartTouchPad.kext` |
-| Papan Ketik bawaan     | ✅  | `ApplePS2SmartTouchPad.kext` |
-| Multimedia Keys        | ✅  | `AsusFnKeys.kext`, `SSDT-HCK.aml`, `Patch OC`|
-
-### macOS Continuity :
-
-| Feature                              | Status | Dependency          |
-| :----------------------------------- | ------ | ------------------- |
-| iCloud, iMessage, FaceTime           | ✅   | ID Apple yang Masuk Daftar Putih, SMBIOS yang Valid  |
-| Time Machine                         | ✅   | Bawaan  |
-| Night Vission                        | ✅   | Bawaan  |
-
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
@@ -126,13 +51,384 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
   - Bagi Pengguna wifi atheros, wifi/bluetooth tidak berjalan ( EOL )
+  
+<img align="left" height=100 src="https://github.com/JaemanPratama/Hackintosh-Asus-A455LA-X455LA-Broadwell-SERIES/blob/main/ACPI/Image/homepage.png"> 
+
+
+## 📖 Panduan Singkat Instalasi :
+
+__BIOS Settings__ :
+
+- Disable Secure Boot
+- Enable CFG Lock
+- Disable Launch CSM
+- DVMT Pre-Allocation 32M
+- XHCI Pre-Boot Mode Smart Auto / Enabled
+- SATA Mode AHCI
+- Intel Virtualization Enable
+- VT-d Enable
+
+__OpenCore config__ :
+
+- Ikuti petunjuk ini untuk mengonfigurasi OpenCore Anda: https://dortania.github.io/OpenCore-Install-Guide/  
+- ACPI Hotpatch: https://github.com/daliansky/OC-little  
+- Audio layout ID: 21 / 28
+
+__Install MacOS__ :
+
+- Buat USB yang dapat di-boot: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/  
+- Jika Anda memiliki masalah dalam menginstal Catalina atau yang lebih baru. Instal Mojave kemudian Anda dapat memperbarui ke versi yang lebih baru.
+- Tidak perlu menginstal ekstensi kext ke macOS tambahan. Semua driver akan dimuat secara otomatis.
+- Setelah menginstal, pasang EFI USB dan salin ini ke EFI HDD Anda.
+- Mengubah nomor seri dan hal-hal lain. Anda dapat menemukan tutorial dari [sini.](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
+
+## Keyboard Function:
+ - Ctrl Kiri + Pause Break: keluarkan drive Optik
+ - Ctrl Kanan + Pause Break: Membuka Menu Sleep, Restart, Shutdown
+ - Fn + F1: Sleep
+ - Fn + F2: Mematikan Wifi Hanya Bekerja di Bigsur Setelah Menginstall AsusSmc Daemon dan AsusSMC.kext
+ - Fn + F3: Tidak Bekerja
+ - Fn + F4: Tidak Bekerja
+ - Fn + F5: Mengurangi Kecerahan
+ - Fn + F6: Menambahkan Kecerahan
+ - Fn + F7: Mematikan Layar
+ - Fn + F8: Jangan Disentuh !! karena Hanya Menghasilkan Reboot (Bug)
+ - Fn + F9: Mematikan Touchpad (hanya Bekerja Memakai AsusNBFnKeys.kext)
+ - Fn + F10: Mute
+ - Fn + F11: Volume Turun
+ - Fn + F12: Volume Naik
+ - Fn + Panah Atas: Mengaktifkan kontrol yang lebih baik untuk tingkat kecerahan/volume yang lebih kecil dalam mode tombol Fn
+ - Fn + arrow Bawah: Putar/Jeda
+ - Fn + arrow kiri: Media Sebelumnya
+ - Fn + arrow right: Media Selanjutnya
+ - konteks Kanan: Membuka Menu Kontekstual
+ - Print Screen: Pintasan tangkapan layar 
+ - Delete scr lk : Pintasan Tombol Hapus
+ 
+### Cara Mengaktifkan / Mengonfigurasi Gerakan Multi-Touch di **ELAN v4, FOCALTECH dan SYNAPTICS**
+
+<img align="left" src="https://ubuntuhandbook.org/wp-content/uploads/2021/06/touchegg-icon-1-250x250.png" >
+
+
+Tutorial sederhana ini menunjukkan cara mengaktifkan & mengkonfigurasi gerakan multi-sentuh di  **ELAN v4, FOCALTECH dan SYNAPTICS** menggunakan kext Appleps2smarttouchpad.kext yang berasal dari [EMlyDinEsH](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/)
+
+Bagi mereka yang menjalankan hackintosh di laptop atau PC dengan touchpad internal / eksternal (yang kompatibel), gerakan multi-jari memungkinkan pengguna dengan lebih banyak tindakan untuk mengontrol sistem Anda.
+
+Jika Anda pernah menggunakan MacBook (atau jika Anda memiliki laptop Windows 10 dengan touchpad yang kompatibel), Anda tahu betapa menyenangkan dan bermanfaatnya gerakan trackpad untuk mengubah desktop, menampilkan semua jendela yang terbuka, dan mencubit untuk memperbesar.
+
+Sayangnya gerakan ini hanya mengemulasi beberapa gerakan dengan mengirimkan sistem dengan pintasan keyboard yang sesuai. Misalnya, setelah kext mendeteksi gesekan tiga jari ke kiri, ia akan memasukkan kontrol + kiri untuk beralih ruang kerja. Ini berfungsi dengan baik tetapi sedikit kikuk (Anda tidak dapat memindahkan ruang kerja setengah jalan untuk melihat apa yang ada di yang lain misalnya)
+
+### Catatan :
+
+- Diuji pada MacOS Big Sur 
+- Hanya Bekerja Pada ELAN v4, FOCALTECH dan SYNAPTICS
+- Pembaruan terakhir Versi Kext 10 - 12 - 2016
+
+### instruksi :
+
+- Unduh file zip yang ada di [sini](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/) dan ekstrak ke folder :
+  * Bagi yang menggunakan bootloader Clover `EFI > Clover > Kexts > Other` 
+  * Bagi yang menggunakan bootloader Opencore `EFI > OC > Kexts`
+- reboot sistem Anda
+- Tambahkan gerakan Anda sendiri atau  pilih  Impor dari menu Gerakan untuk menggunakan konfigurasi saya yang ditemukan di  file ConfigGesure di bawah ini.
+  * Jika memilih untuk impor  dari menu Gerakan saya replace file info.plist ke `ApplePS2SmartTouchPad.kext > Contents`
+
+### Mengonfigurasi Gerakan :
+- hanya berfungsi menggunakan konfigurasi saya
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%201.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%202.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%203.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%204.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%205.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%206.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%208.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%209.png"/>
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%2010.png"/>
+
+Gesture             |  Action
+:-------------------------:|:-------------------------:
+Klik | Tekan dengan satu jari sampai merasakan bunyi klik
+Klik dan tahan | Tekan dan tahan dengan satu jari
+Drag and Drop | Klik dan tahan item, lalu geser jari Anda melintasi trackpad untuk memindahkannya
+Gulir dua jari | Gulir ke atas atau ke bawah ke kiri atau ke kekanan
+Geser ke atas dengan tiga jari | Membuka Mission Control
+Geser ke bawah dengan tiga jari | Membuka APP EXPOSE
+Geser ke kiri atau kanan dengan tiga jari | berpindah antara desktop dan aplikasi layar penuh
+Klik atau ketuk dengan dua jari | klik kanan
+Gesek ke kiri dari tepi kanan dengan dua jari | menampilkan Pusat Pemberitahuan
+buka 4 jari | menampilkan Desktop
+Jepit 5 jari | Membuka Launchpad
+klik 3 jari | Membuka Pencarian Cerdas
+
+
+https://user-images.githubusercontent.com/89202419/177010661-e0dc61bd-dd57-4b7f-9ba8-63436535a873.mp4
+
+### Masalah Tidur
+
+Nonaktifkan Hibernasi: Hibernasi (tangguhkan ke disk atau S4 tidur) tidak didukung di hackintosh. itu bisa menyebabkan masalah jika Anda tidak menonaktifkannya.
+
+```sh
+
+$ sudo pmset -a hibernatemode 0
+
+$ sudo rm /var/vm/sleepimage
+
+$ sudo mkdir /var/vm/sleepimage
+
+$ sudo pmset -a standby 0
+
+$ sudo pmset -a autopoweroff 0
+
+
+```
+
+### Mengaktifkan Trim
+
+Jika Anda telah Menginstal MacOS di SSD, Aktifkan TRIM menggunakan perintah berikut:
+
+```sh
+
+$ sudo trimforce enable
+
+```
+<details>
+<summary>Contoh Trim Yang Sudah Diaktifkan</summary>
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/89202419/175971152-a19c8c41-6355-4552-8671-9259db029a16.png">
+</p>
+</details>
+
+
+### Mengaktifkan macOS HiDPI
+
+Skrip ini dapat mensimulasikan macOS HiDPI pada layar non-retina, dan memiliki Skala "Asli" di Preferensi Sistem.
+Beberapa perangkat memiliki masalah bangun, opsi kedua skrip dapat membantu, itu menyuntikkan EDID yang ditambal, tetapi masalah lain mungkin ada di sini.
+Penskalaan logo mungkin tidak terselesaikan, karena resolusi yang lebih tinggi dipalsukan.
+
+<p align="center">
+<img height="450" width="700" src="https://user-images.githubusercontent.com/89202419/175971707-bcdd59ee-c769-4495-bd9c-d4f6d745de49.png">
+</p>
+
+```
+PERINGATAN: Coba ini dengan risiko Anda sendiri.
+ini dapat memberikan beban yang lebih besar pada kartu grafis Anda !
+```
+
+### Penggunaan
+Download dan gunakan Alat Ini :
+```
+https://github.com/usr-sse2/RDM/releases/tag/2.5.0
+```
+
+<details>
+<summary>Spoiler</summary>
+<p align="center">
+
+<img width="550" height="600" src="https://user-images.githubusercontent.com/89202419/175967801-e5c93181-a086-4e32-8abc-773192180218.png">
+</p>
+</details>
 
 
 
-## 💪 Peningkatan
 
-### SSD MidasForce Sata 256 GB
-Mengganti HDD dengan SSD agar meningkatkan Peforma dan Juga Drive boot utama untuk mesin ini
+### Mengaktifkan audio and iGPU
+Tanpa patch audio dan video, sistem tidak memiliki suara dan ukuran gpu mem hanya 4MB.
+
+<img src="https://www.tonymacx86.com/data/attachments/237/237778-90fad6d11acef68ae0c9fefa7495c46f.jpg">
+
+Download [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) Dan [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) ke EFI/OC/Kext SSD, WhateverGreen memperbaiki banyak masalah dengan grafis iGPU, AMD, dan Nvidia, AppleALC.kext membantu kami membuat audio berfungsi. Ikuti [panduan](https://www.tonymacx86.com/threads/an-idiots-guide-to-lilu-and-its-plug-ins.260063/) untuk menghasilkan patch Opencore. Id tata letak audio dari Conexant cx20751/2 seharusnya `21` (`28` Juga Berfungsi)
+
+### [Untuk Lebih Lengkapnya ](https://dortania.github.io/OpenCore-Post-Install/)
+
+
+### Penambalan ACPI:
+
+
+
+------------
+------------
+
+1. Unduh dan instal [MaciASL](https://github.com/acidanthera/MaciASL/releases) jika Anda belum memilikinya.
+2. Buang tabel ACPI asli Anda. Ada beberapa cara untuk melakukan ini, menggunakan Clover, Hackintool, Linux. Lihat [di sini]([https://khronokernel.github.io/Getting-Started-With-ACPI/Manual/dump.html](https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html#from-clover)).  
+3. Di Terminal, bongkar tabel ACPI yang disalin dengan "iasl -dl DSDT.aml". Untuk tujuan Saya, satu-satunya file yang benar-benar penting adalah DSDT.dsl
+
+- File DSDT Anda akan digunakan sebagai tabel referensi dalam menentukan apa yang perlu ditambal dan tambalan apa yang perlu ditambahkan.
+
+4. Sumber file patch **SSDT\.dsl** terletak di folder `patches`.
+5. Lihat folder `EFI-OpenCore` saya untuk melihat patch mana yang sedang saya gunakan.
+6. Jika **Asus X455L**, sebagian besar hotpatches saya yang dikompilasi dan kemungkinan dapat disalin langsung ke pengaturan Anda. Namun, beberapa tambalan mungkin memerlukan direktori atau variabel tertentu untuk diubah tergantung pada perangkat keras Anda (periksa DSDT Anda sendiri yang dibongkar). Untuk ini, edit file patch .dsl. Juga, perhatikan bahwa beberapa tambalan SSDT juga memerlukan tambalan OpenCore/ Clover ACPI yang menyertainya agar berfungsi.
+
+- Cara yang baik untuk melihat apakah Anda perlu mengedit dan mengkompilasi patch SSDT Anda sendiri adalah dengan membandingkan DSDT.dsl Anda dengan milik saya dari versi BIOS yang sama.
+
+- Jika DSDT sumber Anda cukup mirip (berkenaan dengan item tertentu dalam patch ACPI ini) dengan milik saya. Selamat! Anda cukup mencoba tambalan terkompilasi saya. Namun, jika berbeda, harap periksa catatan ini dengan cermat dan buat patch SSDT Anda sendiri.  
+
+7. Setelah Anda memiliki tambalan ACPI yang dikompilasi, letakkan di `EFI/OC/ACPI/` dan pastikan untuk membuat entri yang cocok di dalam bagian `ACPI/Add/` OpenCore `config.plist`.
+
+# Catatan Hotpatching
+
+- Patch ACPI sumber adalah `.dsl` Edit ini sesuai kebutuhan.
+- Patch ACPI yang dikompilasi adalah `.aml` Setelah dikompilasi, patch ini menjadi milik `EFI/OC/ACPI`.
+- Patch OpenCore adalah patch untuk `config.plist`
+
+## Beberapa tambalan di sini mungkin tidak digunakan. Lihat folder OpenCore-EFI saat ini untuk melihat mana yang sedang saya gunakan. Sementara patch lain mungkin diperlukan kasus per kasus, seperti patch Baterai/Sleep.
+
+## Beberapa mesin adalah `LPC` dan beberapa lainnya adalah`LPCB`. Silakan periksa DSDT Anda sendiri dan modifikasi patch sesuai kebutuhan.
+
+> ### SSDT-BATT-Asus-X455L - Mengaktifkan Status Baterai di macOS 
+
+**Perlu `OpenCore Patches/ AsusBatt.plist`** 
+
+> ### SSDT-_SB.CPU0.aml - Mengaktifkan Manajemen Daya Intel Asli
+
+Jalur prosesor adalah `_SB.CPU0`  
+Mengapa?: Pencarian `Processor` di DSDT, ganti nama `PR` ke variabel lain sesuai kebutuhan.
+
+```
+    Scope (_PR)
+    {
+        Processor (CPU0, 0x01, 0x00001810, 0x06){}
+        Processor (CPU1, 0x02, 0x00001810, 0x06){}
+        Processor (CPU2, 0x03, 0x00001810, 0x06){}
+        Processor (CPU3, 0x04, 0x00001810, 0x06){}
+        Processor (CPU4, 0x05, 0x00001810, 0x06){}
+        Processor (CPU5, 0x06, 0x00001810, 0x06){}
+        Processor (CPU6, 0x07, 0x00001810, 0x06){}
+        Processor (CPU7, 0x08, 0x00001810, 0x06){}
+    }
+```
+
+> ### SSDT-PNLF 
+ 
+- Mengaktifkan Manajemen Kecerahan di macOS
+
+> ### SSDT-EC-LAPTOP - Buat pengontrol tertanam palsu yang disebut `EC`
+
+- EC yang ada mungkin tidak kompatibel dengan macOS, jadi yang palsu dibuat.
+
+> ### SSDT-AC0
+
+### Menyelesaikan masalah Deteksi Adaptor AC
+
+- Jika adaptor AC terpasang saat boot/saat OS dimuat, status baterai di bilah menu terus menunjukkannya sebagai terpasang meskipun terputus. Tingkat pengisian daya baterai tidak mencatat perubahan (terus menunjukkan tingkat pengisian yang sama seperti saat boot).
+
+- Jika adaptor tidak terpasang saat boot/saat OS dimuat, baterai akan terlihat habis dan tingkat pengisian daya menurun pada tingkat yang dapat dipercaya (mungkin tingkat yang akurat). Jika pengisi daya kemudian dicolokkan, persentase tingkat pengisian daya meningkat, tetapi status baterai di bilah menu tidak mencerminkan fakta bahwa pengisi daya dicolokkan.
+
+> ### SSDT-ACAP
+
+- Beberapa implementasi ACPI adaptor AC tidak memberi tahu host ACPI perubahan status adaptor AC.
+
+- SSDT ini dapat digunakan untuk memperbaikinya dengan memasangkan dengan ACPIPoller.kext.
+
+> ### SSDT-ALS0
+
+- Perangkat sensor cahaya ambient palsu
+
+> ### SSDT-FAN
+
+- kontrol kipas khusus pada laptop ASUS `Hanya Kosmetik Untuk Laptop Ini`
+
+> ### SSDT-GPRW
+
+- Patch Bangun Instan
+
+> ### SSDT-HPET
+
+- Memperbaiki Konflik IRQ
+
+> ### SSDT-MEM2
+
+- Menambahkan MEM2 di Acpi
+
+> ### SSDT-Fn-Brightness
+
+- perbaiki kecerahan dengan kunci fn 
+
+> ### SSDT-PWRB
+
+- Menambahkan PWRB di Acpi
+
+> ### SSDT-SBUS-MCHC
+
+- Memperbaiki dukungan SMBus
+
+
+## Dual Boot Windows 10 :
+
+## Persiapan:
+
+1. Pastikan macOS diinstal terlebih dahulu
+2. Unduh file [ISO Windows 10](https://www.microsoft.com/en-us/software-download/windows10ISO)
+3. Pastikan Penyimpanan anda Cukup !!
+
+#### Catatan penting: Ini HANYA akan berfungsi jika sistem Anda dalam mode GPT (GUID) -UEFI (bukan MBR-Legacy)
+
+## Yang Anda perlukan:
+
+- Bootable Flashdisk Windows 10
+  * [Baca Ini Untuk Membuat Flashdisk Bootable Windows 10](https://www.nesabamedia.com/cara-membuat-bootable-flashdisk-windows-10/)
+- [Brigadier](https://github.com/timsutton/brigadier/releases)
+  * Untuk mengunduh driver BootCamp
+- Folder EFI Clover atau OpenCore yang berfungsi
+
+
+## Mempartisi Drive Anda
+
+<img src="https://user-images.githubusercontent.com/89202419/161781716-4631214b-50cf-4ccc-87b0-944ddcf0e042.png" width="50%" height="50%">
+Di Disk Utility , pilih hard drive internal Anda di panel kiri, dan klik Partition .
+Klik tombol + dan buat partisi baru dengan ukuran yang Anda inginkan untuk instalasi Windows Anda dan beri nama sesuai keinginan (saya akan Menamainya "BOOTCAMP"). Pastikan bahwa Format diatur ke MS-DOS (FAT) dan klik Terapkan .
+
+## Booting Dari USB 
+
+Pastikan USB yang berisi penginstal Windows telah dimasukkan, lalu mulai ulang
+
+
+
+Anda sekarang akan disajikan dengan daftar drive yang dapat di-boot. Pilih drive USB (biasanya berjudul “Windows”) untuk mulai menginstal Windows.
+
+<img src="https://dortania.github.io/OpenCore-Legacy-Patcher/assets/img/oc-windows.eae5bcb0.png" width="50%" height="50%">
+
+## Mempartisi Hard Disk Windows Anda ⚠️
+
+pilih partisi Windows yang dibuat sebelumnya (yang saya sebut "BOOTCAMP") dan klik Delete
+
+<img src="https://fgimian.github.io/img/installing-windows-10-on-a-mac-without-bootcamp/windows-install-partition-delete.png" width="50%" height="50%">
+
+Selanjutnya, pilih Unallocated Space dan klik New untuk membuat partisi Windows NTFS yang tepat.
+
+<img src="https://fgimian.github.io/img/installing-windows-10-on-a-mac-without-bootcamp/windows-install-partition-new.png" width="50%" height="50%">
+
+### Menyelesaikan Instalasi
+
+Biarkan penginstal selesai dan boot ke Windows.
+
+
+
+
+### Menginstal Perangkat Lunak Dukungan Boot Camp
+
+- Pastikan Anda Telah Menginstall [7zip](https://www.7-zip.org)
+- Download [Alat ini](https://github.com/timsutton/brigadier/releases)
+  * pastikan anda memilih brigadier.exe
+- Setelah Itu, jalankan brigadier.exe
+  * Catatan : brigadier membutuhkan sedikit waktu untuk Mendownload Beberapa File, jadi harap bersabar.
+- Setelah brigadier Mendownload Beberapa File , Arahkan ke bootcamp-{filename}\BootCampfolder dan jalankan Setup.exe
+  * Ini Memerlukan Waktu, Jadi harap bersabar
+- Catatan: Bagi mereka yang tidak memerlukan driver tambahan yang disediakan BootCamp, Anda dapat menghapus yang berikut ini:
+  * $WinPEDriver$ 
+  * BootCamp/Drivers/...
+
+
+
+Setelah semuanya selesai, Anda sekarang memiliki peralihan BootCamp! Seharusnya ada ikon BootCamp kecil di baki Anda sekarang sehingga Anda dapat memilih drive mana yang akan di-boot.
+
+
+__Fix Dual Boot__ :
+
+- Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/ 
+
+
+
 
 ## 🔍 Konfigurasi Bios :
 
@@ -150,6 +446,8 @@ Graphics Configuration -> DVMT Pre-Allocation | 64M / default 32M but need pre-a
 USB Configuration -> XHCI Pre-Boot Mode | Enabled / Smart Auto if using EHCI device
 SATA Mode | AHCI
 Boot -> Launch CSM | Enabled or Disabled for Resolution Boot OC
+
+
 
 
 ## 📔 Sedikit Catatan :
@@ -221,90 +519,16 @@ Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat
 <img src="https://user-images.githubusercontent.com/89202419/169351491-c236bd1b-2c77-4249-8897-bc018b2351ec.png">
  
 </details>
- 
-### ℹ️ Informasi System :
 
-<details>
-<summary>Grafik / Tampilan </summary>
+<img src="https://user-images.githubusercontent.com/89202419/173259179-49c440e1-f95e-4966-b6d1-a967003850d3.jpg" >
 
-![Jepretan Layar 2021-12-27 pukul 23 44 52](https://user-images.githubusercontent.com/89202419/147491857-3c882c6c-b7ac-4bac-9833-eaf0817c86dc.png)
-</details>
+Ini adalah hasil score dari benchmark saya
 
+### Hackintosh Tools
+Menginstal alat yang bermanfaat untuk hackintosh anda? [Di sini tempatnya](https://www.insanelymac.com/forum/805-hackintosh-tools/)
 
-<details>
-<summary>Kamera </summary>
- 
-![Jepretan Layar 2021-12-27 pukul 23 44 58](https://user-images.githubusercontent.com/89202419/147491928-7bca1e1a-a9d6-45fc-bc2a-e12673a6b8d1.png)
-</details>
+<img align="right" width="110" height="110" src="https://github.com/JaemanPratama/Hackintosh-Asus-A455LA-X455LA-Broadwell-SERIES/blob/main/Hackintosh%20Tools/d7fwtvr-8d68beff-4a0e-41f9-9ca9-88e85720a0b2.png">
 
-
-<details>
-<summary>Kartu Ethernet </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 45 03](https://user-images.githubusercontent.com/89202419/147492008-321e210b-65a5-4b74-81fc-48b50abeb192.png)
-</details>
-
-
-<details>
-<summary>Baterai / Daya </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 44 44](https://user-images.githubusercontent.com/89202419/147492106-0a551d3a-a528-4280-a414-7035addb199e.png)
-</details>
-
-
-<details>
-<summary>PCI </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 45 45](https://user-images.githubusercontent.com/89202419/147492205-0af77aca-f86e-4cb4-8be7-b21a13ef07d5.png)
-</details>
-
-
-<details>
-<summary>Pembakaran Disk </summary>
- 
-![Jepretan Layar 2021-12-27 pukul 23 45 51](https://user-images.githubusercontent.com/89202419/147492289-afb6441d-eb83-4ea4-9454-974ebe401ed1.png)
-</details>
-
-
-<details>
-<summary>Audio </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 59 12](https://user-images.githubusercontent.com/89202419/147492438-21f726ad-d471-4920-aac3-7f43e55dfce3.png)
-</details>
-
-
-<details>
-<summary>Sata / Sata Express </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 46 00](https://user-images.githubusercontent.com/89202419/147492671-71d7eabe-74dc-4fe8-8d43-9f51c81643a4.png)
-</details>
-
-
-<details>
-<summary>USB </summary>
- 
-![Jepretan Layar 2021-12-27 pukul 23 46 13](https://user-images.githubusercontent.com/89202419/147492769-03435186-0457-4bb0-a424-59207f3edd94.png)
-</details>
-
-
-<details>
-<summary>Jaringan </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 46 28](https://user-images.githubusercontent.com/89202419/147492937-5a2e7f71-6fdd-4d87-8928-a391dcd0012e.png)
-</details>
-
-<details>
-<summary>Sensor </summary>
-
-![Jepretan Layar 2021-12-27 pukul 23 46 41](https://user-images.githubusercontent.com/89202419/147492965-22924fc8-1c60-4e10-8d64-36c916405619.png)
-</details>
-
- 
-<details>
-<summary>Intel Power Gadget </summary>
-
-![Jepretan Layar 2021-12-28 pukul 00 16 44](https://user-images.githubusercontent.com/89202419/147493552-0edde29c-ee4f-4f00-9b6b-3a1ec7e43e93.png)
-</details>
  
 
  ### 🙏 Terimakasih Kepada :
