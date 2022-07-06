@@ -52,7 +52,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 - `Tidak Direkomendasikan`
   - Bagi Pengguna wifi atheros, wifi/bluetooth tidak berjalan ( EOL )
   
-<img align="left" height=100 src="https://github.com/JaemanPratama/Hackintosh-Asus-A455LA-X455LA-Broadwell-SERIES/blob/main/ACPI/Image/homepage.png"> 
+
 
 
 ## 📖 Panduan Singkat Instalasi :
@@ -241,6 +241,8 @@ Download [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/relea
 
 ### [Untuk Lebih Lengkapnya ](https://dortania.github.io/OpenCore-Post-Install/)
 
+
+<img align="left" height=100 src="https://github.com/JaemanPratama/Hackintosh-Asus-A455LA-X455LA-Broadwell-SERIES/blob/main/ACPI/Image/homepage.png"> 
 
 ### Penambalan ACPI:
 
