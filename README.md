@@ -200,27 +200,39 @@ Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat
 ## :man_facepalming: **Masalah Luar Biasa**
 
 ### Membuat touchpad dan keyboard benar benar berfungsi :
-<details>
- <summary>Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana. </summary>
 
-<img height=250 src="https://www.tonymacx86.com/attachments/screen-shot-2019-01-02-at-6-57-13-pm-png.376412/">
-</details>
+Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
  
 ### Membuat kecepatan wifi benar benar berfungsi seperti aslinya :
+
+Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
+
 <details>
-<summary>Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
- 
+<summary>Contoh</summary>
 <img src="https://user-images.githubusercontent.com/89202419/169350954-1e9dd13f-6408-4b7a-88e7-631ad1cce277.png">
+
+Solusi Terbaik adalah dengan membeli dongle Wi-Fi USB atau kartu nirkabel yang didukung
 </details>
  
 ### Memaksakan mematikan bluetooth :
+Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
+
+
 <details>
-<summary>Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
- </summary>
- 
+<summary>Contoh </summary>
 <img src="https://user-images.githubusercontent.com/89202419/169351491-c236bd1b-2c77-4249-8897-bc018b2351ec.png">
+
+Peringatan: Ath3kBTInjector :
+
+
+:warning: kext memiliki cacat kecil: jika Anda ingin mengaktifkan / menonaktifkan Bluetooth , Anda harus mematikan Wi-Fi terlebih dahulu.  
+Ath3kBTInjector dapat dihindari bagi mereka yang tidak keberatan tombol On/off bluetooth berwarna abu - abu di Bluetooth PrefPane.
  
 </details>
+
+### HDMI mungkin tidak berfungsi saat pertama kali Anda mencolokkannya
+
+Anda harus memasangnya kembali, atau menutup tutupnya selama sekitar lima detik dan membuka kembali tutupnya
  
 ### ℹ️ Informasi System :
 
