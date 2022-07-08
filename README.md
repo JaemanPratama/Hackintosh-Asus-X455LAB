@@ -32,9 +32,8 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 
 
-## Hardware :
+### Hardware :
 
-### Asus X455LA
 
 | **Category**   | **Component**                 		
 |----------------|--------------------------------------|
@@ -47,73 +46,66 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 |**Bluetooth**   |3012	  			     		                         | 	  
 |**Ethernet**    |Realtek RTL8111				 		                    |										      
 |**Audio** 		    |Conexant CX20751/2				 		                 |
-|**Input**       |PS2 Keyboard & ETD0108 ELAN Interface Touchpad |										      
+|**Input**       |PS2 Keyboard & ETD0108 Focaltech Touchpad |										      
 
 
-### Asus X455LJ
 
-| **Category**   | **Component**                 		
-|----------------|--------------------------------------|
-|**CPU**		       |2.20GHz Intel Core i5-5200U		            |										      
-|**GPU**		       |Intel HD 5500				     		 										       |
-|**DGPU**		       |Nvidia 920M			     		 										       |
-|**RAM**         |4 + 4 GB DDR3L               		   |
-|**SDD**         |Sandisk SSD Plus 120GB & HDD Hitachi 5400RPM SATA2 500GB 		                |
-|**Layar**       |14 Inch HD LED	1366x768	 		               |										      
-|**Wi-Fi/BT**    |Atheros AR9565  			     		                |	     
-|**Bluetooth**   |Built In 			     		                         | 	  
-|**Ethernet**    |Realtek RTL8111				 		                    |										      
-|**Audio** 		    |Built In 						 		                 |
-|**Input**       |PS2 Keyboard & PS2 Touchpad |		
+### Tidak Berfungsi :
 
-### Asus A455LB 
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Airdrop                              | ❌   | Tidak berfungsi dengan wifi atheros. |
+| Pembaca Kartu                        | ❌   | Tidak diuji. |
+| Port VGA                             | ❌   | Tidak diuji. |
 
-| **Category**   | **Component**                 		
-|----------------|--------------------------------------|
-|**CPU**		       |2.20GHz Intel Core i5-5200U  |										      
-|**GPU**		       |Intel HD 5500				     		 										       |
-|**DGPU**		       |Nvidia 940M			     		 										       |
-|**RAM**         |4 + 4 1600MHz GB DDR3L               		   |
-|**SDD**         |Apacer AS340 PANTHER 240GB SATA III SSD + HDD 1TB 		                |
-|**Layar**       |14 Inch HD LED	1366x768	 		               |										      
-|**Wi-Fi/BT**    |Atheros AR9565  			     		                |	     
-|**Bluetooth**   |Built In 			     		                         | 	  
-|**Ethernet**    |Realtek RTL8111				 		                    |										      
-|**Audio** 		   |Conexant CX20751/2					 		                 |
-|**Input**       |PS2 Keyboard & Focaltech PS2 Touchpad |
+### Video dan Audio :  
 
-### Asus A455LF 
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Akselerasi Grafis Penuh (QE/CI)      | ✅   | `WhateverGreen.kext`  |
+| Port HDMI                            | ✅   | `WhateverGreen.kext`  |
+| Kamera internal                      | ✅   | `SSDT-HCK.aml`            |
+| DVD internal                         | ✅   | `SSDT-HCK.aml`            |
+| Rekaman Audio                        | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+| Pemutaran Audio                      | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+| Pengalihan Output Headphone Otomatis | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
+| Port Audio.                          | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
 
-| **Category**   | **Component**                 		
-|----------------|--------------------------------------|
-|**CPU**		       |1,7GHz Intel Core i3-4005U  |										      
-|**GPU**		       |Intel HD 4400				     		 										       |
-|**DGPU**		       |Nvidia 930M			     		 										       |
-|**RAM**         |4 + 4 1600MHz GB DDR3L               		   |
-|**SDD**         |SSD SATA III  		                |
-|**Layar**       |14 Inch HD LED	1366x768	 		               |										      
-|**Wi-Fi/BT**    |Built In 	  			     		                |	     
-|**Bluetooth**   |Built In 			     		                         | 	  
-|**Ethernet**    |Realtek RTL8111				 		                    |										      
-|**Audio** 		   |Sonic Master Audio					 		                 |
-|**Input**       |PS2 Keyboard & Asus PS2 Touchpad |
 
-### Asus A455LD 
+### Daya, Isi Daya, Tidur, dan Hibernasi :
 
-| **Category**   | **Component**                 		
-|----------------|--------------------------------------|
-|**CPU**		       |2.70 GHz Intel Core i5-4210U  |										      
-|**GPU**		       |Intel HD 4400				     		 										       |
-|**DGPU**		       |Nvidia GT 820M			     		 										       |
-|**RAM**         |4 GB DDR3               		   |
-|**SDD**         |SSD SATA III  		                |
-|**Layar**       |14 Inch HD LED	1366x768	 		               |										      
-|**Wi-Fi/BT**    |Built In 	  			     		                |	     
-|**Bluetooth**   |Built In 			     		                         | 	  
-|**Ethernet**    |Realtek RTL8111				 		                    |										      
-|**Audio** 		   |Sonic Master Audio					 		                 |
-|**Input**       |PS2 Keyboard & Asus PS2 Touchpad |
+| Feature                              | Status | Dependency.         |
+| :----------------------------------- | ------ | ------------------- |
+| Indikator Persentase Baterai         | ✅   | `ECEnabler.kext`            | 
+| iGPU Power Management                | ✅   | `XCPM`, diaktifkan dengan [`SSDT-PM.aml`](https://github.com/Piker-Alpha/ssdtPRGen.sh) |
+| XHCI Sleep                           | ✅   | `SSDT-HCK.aml` |  |   
 
+
+### Input/ Output :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| WiFi                                 | ✅   | `AirPortAtheros40.kext`  |
+| Bluetooth                            | ✅   | `Ath3kBT.kext`  |
+| Ethernet                             | ✅   | `RealtekRTL8111.kext`  |
+| USB 2.0, USB 3.0                     | ✅   | `USBToolBox.kext`    |
+
+### Display, TrackPad, dan Keyboard :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Penyesuaian Kecerahan  | ✅  | `WhateverGreen.kext`, `SSDT-HCK.aml`|
+| TrackPad               | ✅  | `ApplePS2SmartTouchPad.kext` |
+| Papan Ketik bawaan     | ✅  | `ApplePS2SmartTouchPad.kext` |
+| Multimedia Keys        | ✅  | `AsusFnKeys.kext`, `SSDT-HCK.aml`, `Patch OC`|
+
+### macOS Continuity :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| iCloud, iMessage, FaceTime           | ✅   | ID Apple yang Masuk Daftar Putih, SMBIOS yang Valid  |
+| Time Machine                         | ✅   | Bawaan  |
+| Night Vission                        | ✅   | Bawaan  |
 
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
@@ -208,43 +200,27 @@ Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat
 ## :man_facepalming: **Masalah Luar Biasa**
 
 ### Membuat touchpad dan keyboard benar benar berfungsi :
+<details>
+ <summary>Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana. </summary>
 
-Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
+<img height=250 src="https://www.tonymacx86.com/attachments/screen-shot-2019-01-02-at-6-57-13-pm-png.376412/">
+</details>
  
 ### Membuat kecepatan wifi benar benar berfungsi seperti aslinya :
-
-Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
-
 <details>
-<summary>Contoh</summary>
+<summary>Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
+ 
 <img src="https://user-images.githubusercontent.com/89202419/169350954-1e9dd13f-6408-4b7a-88e7-631ad1cce277.png">
-
-Solusi Terbaik adalah dengan membeli dongle Wi-Fi USB atau kartu nirkabel yang didukung
 </details>
  
 ### Memaksakan mematikan bluetooth :
-Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
-
-
 <details>
-<summary>Contoh </summary>
+<summary>Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
+ </summary>
+ 
 <img src="https://user-images.githubusercontent.com/89202419/169351491-c236bd1b-2c77-4249-8897-bc018b2351ec.png">
-
-Peringatan: Ath3kBTInjector :
-
-
-:warning: kext memiliki cacat kecil: jika Anda ingin mengaktifkan / menonaktifkan Bluetooth , Anda harus mematikan Wi-Fi terlebih dahulu.  
-Ath3kBTInjector dapat dihindari bagi mereka yang tidak keberatan tombol On/off bluetooth berwarna abu - abu di Bluetooth PrefPane.
  
 </details>
-
-### HDMI mungkin tidak berfungsi saat pertama kali Anda mencolokkannya
-
-Anda harus memasangnya kembali, atau menutup tutupnya selama sekitar lima detik dan membuka kembali tutupnya
-
-### Kartu grafis diskrit tidak berfungsi, karena macOS tidak mendukung teknologi nvidia
-
-Telah digunakan `SSDT-DDGPU` untuk menonaktifkannya untuk menghemat daya
  
 ### ℹ️ Informasi System :
 
