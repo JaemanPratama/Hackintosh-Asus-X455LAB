@@ -13,7 +13,8 @@
 [![](https://img.shields.io/badge/Reposity-JaemanPratama-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/JaemanPratama)
 [![](https://img.shields.io/badge/Telegram-HackintoshLover-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLover)
 [![](https://img.shields.io/badge/Facebook-HackintoshIndonesia-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/groups/hackintosh.indonesia)
-[![](https://img.shields.io/badge/Instagram-hackintoshkings-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshkings/?hl=id)
+[![OpenCore](https://img.shields.io/badge/OpenCore-v0.8.2-blue?style=flat&logo=okta)](https://github.com/acidanthera/OpenCorePkg)
+[![](https://img.shields.io/badge/Github-Issues-informational?style=flat&logo=Github&logoColor=white&color=8a178a)](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/issues)
 
 > :warning: **PERINGATAN:**
 Ini bukan panduan atau folder EFI plug-and-play, lihat [Dortania](https://dortania.github.io/getting-started/) sebelum melakukan apa pun. Saya tidak bertanggung jawab atas kerusakan apa pun. Konfigurasi OpenCore ini dioptimalkan untuk perangkat keras khusus saya, jadi harap gunakan hanya sebagai referensi atau jika Anda memiliki perangkat keras yang sama/serupa.!
@@ -32,7 +33,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 
 
-### Hardware :
+### 💻  Hardware :
 
 
 | **Category**   | **Component**                 		
@@ -50,13 +51,6 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 
 
-### Tidak Berfungsi :
-
-| Feature                              | Status | Dependency          |
-| :----------------------------------- | ------ | ------------------- |
-| Airdrop                              | ❌   | Tidak berfungsi dengan wifi atheros. |
-| Pembaca Kartu                        | ❌   | Tidak diuji. |
-| Port VGA                             | ❌   | Tidak diuji. |
 
 ### Video dan Audio :  
 
@@ -90,7 +84,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Ethernet                             | ✅   | `RealtekRTL8111.kext`  |
 | USB 2.0, USB 3.0                     | ✅   | `USBToolBox.kext`    |
 
-### Display, TrackPad, dan Keyboard :
+### Layar, TrackPad, dan Keyboard :
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -107,15 +101,27 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Time Machine                         | ✅   | Bawaan  |
 | Night Vission                        | ✅   | Bawaan  |
 
+### ☹️ Tidak Berfungsi :
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Airdrop                              | ❌   | Tidak berfungsi dengan wifi atheros. |
+| Gesture MacOS                        | ❌   | Terjebak pada emulasi mouse. |
+| Pembaca Kartu                        | ❌   | Tidak diuji. |
+| Port VGA                             | ❌   | Tidak diuji. |
+
+
 
 ## :white_check_mark: Versi MacOS yang telah berhasil dijalankan:
 
 - [x] Sierra (Tested, Opencore, Olarila, Installer) 
 - `Tidak Direkomendasikan`
-  - Wifi harus dipasang di S/L/E (system/library/extension), sleep terkadang gagal
+  - Wifi harus dipasang di S/L/E (system/library/extension) 
+  - Tidak bisa sleep atau sleep terkadang gagal
 - [x] High Sierra (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
-  - Wifi harus dipasang di S/L/E (system/library/extension), sleep terkadang gagal
+  - Wifi harus dipasang di S/L/E (system/library/extension)
+  - Tidak bisa sleep atau sleep terkadang gagal
 - [x] Mojave (Tested, Opencore, Online Installer)
 - `Direkomendasikan`
 - [x] Catalina (Tested, Opencore, Online Installer)
@@ -125,7 +131,8 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
   - Bagi Pengguna wifi atheros bar menu wifi hanya menunjukkan  sinyal wifi lemah
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
 - `Tidak Direkomendasikan`
-  - Bagi Pengguna wifi atheros, wifi/bluetooth tidak berjalan ( EOL )
+  - Bagi Pengguna wifi atheros, wifi/bluetooth sudah tidak berjalan ( End Of Live )
+  - Solusinya dengan mengganti kartu nirkabel yang didukung seperti wifi intel atau dongle wifi
 
 
 
@@ -138,18 +145,16 @@ Mengganti HDD dengan SSD agar meningkatkan Peforma dan Juga Drive boot utama unt
 
 Bagian di bawah ini diadaptasi dari @asepms92 [Hackintosh-ASUS-A455LF-Notebook](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/blob/master/README.md)
 
+*  *Security* → Secure Boot → Disabled
+*  *Intel* Virtualization → Enabled OK / Disabled jika Anda memiliki masalah
+*  *VT-d* → Enabled
+*  *Graphics Configuration* → DVMT Pre-Allocation → 64M / default 32M tetapi perlu tambalan 
+*  *USB Configuration* → XHCI Pre-Boot Mode → Enabled / Smart Auto jika menggunakan perangkat EHCI
+*  *SATA Mode* → AHCI
+*  *Boot* → Launch CSM → Enabled or Disabled untuk Resolusi Boot OC
+
 **Cara Memasuki Bios:**\
 Tekan **F2** 
-
-Bios Config | Setting 
-:---:| :---:
-Security -> Secure Boot | Disabled
-Intel Virtualization    | Enabled OK / Disabled if you have issues
-VT-d | Disabled / Enabled with boot-args "dart=0"
-Graphics Configuration -> DVMT Pre-Allocation | 64M / default 32M but need pre-alloc patches
-USB Configuration -> XHCI Pre-Boot Mode | Enabled / Smart Auto if using EHCI device
-SATA Mode | AHCI
-Boot -> Launch CSM | Enabled or Disabled for Resolution Boot OC
 
 
 ## 📔 Sedikit Catatan :
@@ -208,8 +213,15 @@ Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboa
 Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
 
 <details>
-<summary>Contoh</summary>
-<img src="https://user-images.githubusercontent.com/89202419/169350954-1e9dd13f-6408-4b7a-88e7-631ad1cce277.png">
+<summary>Lebih Lanjut</summary>
+<img align="right" src="https://user-images.githubusercontent.com/89202419/179365367-dab51a58-9fed-40ac-a65a-4f5e73d84223.png">
+
+Sinyal bar di mojave kuat 
+
+<img align="right" src="https://user-images.githubusercontent.com/89202419/169350954-1e9dd13f-6408-4b7a-88e7-631ad1cce277.png">
+
+
+Sinyal bar di bigsur lemah 
 
 Solusi Terbaik adalah dengan membeli dongle Wi-Fi USB atau kartu nirkabel yang didukung
 </details>
@@ -219,20 +231,27 @@ Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini
 
 
 <details>
-<summary>Contoh </summary>
-<img src="https://user-images.githubusercontent.com/89202419/169351491-c236bd1b-2c77-4249-8897-bc018b2351ec.png">
+<summary>Lebih Lanjut</summary>
+<img align="right" src="https://user-images.githubusercontent.com/89202419/169351491-c236bd1b-2c77-4249-8897-bc018b2351ec.png">
 
-Peringatan: Ath3kBTInjector :
+**Peringatan Ath3kBTInjector :**
 
-
-:warning: kext memiliki cacat kecil: jika Anda ingin mengaktifkan / menonaktifkan Bluetooth , Anda harus mematikan Wi-Fi terlebih dahulu.  
-Ath3kBTInjector dapat dihindari bagi mereka yang tidak keberatan tombol On/off bluetooth berwarna abu - abu di Bluetooth PrefPane.
- 
+```
+kext ini memiliki cacat kecil: jika Anda ingin mengaktifkan / menonaktifkan Bluetooth, 
+Anda harus mematikan Wi-Fi terlebih dahulu.  
+Ath3kBTInjector dapat dihindari,
+bagi mereka yang tidak keberatan tombol On/off bluetooth berwarna abu - abu,
+di Bluetooth PrefPane.
+``` 
 </details>
 
 ### HDMI mungkin tidak berfungsi saat pertama kali Anda mencolokkannya
 
 Anda harus memasangnya kembali, atau menutup tutupnya selama sekitar lima detik dan membuka kembali tutupnya
+
+### Airplay
+
+Tidak berfungsi airplay di Mac OS Bigsur
  
 ### ℹ️ Informasi System :
 
