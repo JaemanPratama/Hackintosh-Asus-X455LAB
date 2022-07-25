@@ -33,7 +33,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 
 
-### 💻  Hardware :
+### ⚙️  Hardware :
 
 
 | **Category**   | **Component**                 		
@@ -52,7 +52,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 
 
 
-### Video dan Audio :  
+### 🔊 Video dan Audio :  
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -66,7 +66,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Port Audio.                          | ✅   | `AppleALC.kext` dengan Layout ID = 28 dan `SSDT-HCK.aml`   |
 
 
-### Daya, Isi Daya, Tidur, dan Hibernasi :
+### 💡 Daya, Isi Daya, Tidur, dan Hibernasi :
 
 | Feature                              | Status | Dependency.         |
 | :----------------------------------- | ------ | ------------------- |
@@ -75,7 +75,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | XHCI Sleep                           | ✅   | `SSDT-HCK.aml` |  |   
 
 
-### Input/ Output :
+### ᯤ Input/ Output :
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -84,7 +84,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Ethernet                             | ✅   | `RealtekRTL8111.kext`  |
 | USB 2.0, USB 3.0                     | ✅   | `USBToolBox.kext`    |
 
-### Layar, TrackPad, dan Keyboard :
+### 🖥 Layar, TrackPad, dan Keyboard :
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -93,7 +93,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Papan Ketik bawaan     | ✅  | `ApplePS2SmartTouchPad.kext` |
 | Multimedia Keys        | ✅  | `AsusFnKeys.kext`, `SSDT-HCK.aml`, `Patch OC`|
 
-### macOS Continuity :
+### 🔆 macOS Continuity :
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
