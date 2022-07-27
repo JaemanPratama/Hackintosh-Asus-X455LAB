@@ -31,9 +31,23 @@ Saya tidak bertanggung jawab atas kerugian yang disebabkan oleh penggunaan EFI i
 GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 ```
 
+### :mag_right: Akses Cepat
+- [Koleksi Acpi](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/ACPI)
+  - [Hotpatch Acpi Opencore](https://github.com/jsassu20/OpenCore-HotPatching-Guide)
+  - [Paduan Dortania Patch SSDT](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html)
+- [Aktifkan Fitur Touchpad](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Aktifkan%20Fitur%20Touchpad)
+  - [Panduan Asli](https://osxlatitude.com/forums/topic/5966-details-about-the-smart-touchpad-driver-features/)
+- [Cara Dual Boot Dengan Windows 10 / 11](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Dual%20Boot%20Windows%2010)
+- [Tools Hackintosh](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Hackintosh%20Tools)
+- [Tentang Keyboard](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Keyboard)
+- [Paduan Singkat Installasi Hackintosh](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Panduan%20Instalasi)
+  - [Panduan Asli Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
+- [Setelah Menginstall Hackintosh](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Post%20Installation)
+  - [Lebih Lengkapnya](https://dortania.github.io/OpenCore-Post-Install/)
+- [Score Test Benchmark](https://github.com/JaemanPratama/Hackintosh-Asus-X455LAB-SERIES/tree/main/Score%20Test%20Benchmark)
 
 
-### ⚙️  Hardware :
+### ⚙️ Hardware :
 
 
 | **Category**   | **Component**                 		
@@ -178,13 +192,22 @@ Tekan **F2**
 
 <img src="https://user-images.githubusercontent.com/89202419/166134177-b30b2d1f-63e8-4c20-a620-5a418d68fca7.png#gh-dark-mode-only" width="50%" height="50%">
 
+<details>
+<summary>Ingin menghilangkan versi opencore di menu boot picker? </summary>
+
+<img src="https://user-images.githubusercontent.com/89202419/181296062-524b626f-3fd0-4cbb-822d-449bcae30283.png" width="50%" height="50%">
+</details>
+
+**Hapus centang bagian ini**
+
+<img src="https://user-images.githubusercontent.com/89202419/181296721-49d2ee6e-f447-4c4c-b686-452ca4edd828.png" width="50%" height="50%">
 
 ### 2. Catatan Pengguna Wifi Atheros :
 
 <details>
 <summary>MacOS Monterey</summary>
 
-##### Jika Model Wifi anda masih menggunakan seri atheros, Anda harus menonaktifkan kext HS80211Family.kext, WifiLocFix.kext, AirPortAtheros40.kext, Ath3kBT.kext karena model wifi seri atheros tidak akan berfungsi di monterey
+**Jika Model Wifi anda masih menggunakan seri atheros, Anda harus menonaktifkan kext HS80211Family.kext, WifiLocFix.kext, AirPortAtheros40.kext, Ath3kBT.kext karena model wifi seri atheros tidak akan berfungsi di monterey**
 
 <img width="100%" height="100%" src="https://user-images.githubusercontent.com/89202419/175806528-6b31dcf2-0a6e-4b21-8c1f-455a86fc3728.png">
 </details>
@@ -206,7 +229,10 @@ Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat
 
 ### Membuat touchpad dan keyboard benar benar berfungsi :
 
-Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.
+~~Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.~~
+
+Masalah Terselesaikan \
+**Dengan mengedit info.plist pada kext appleps2smarttouchpad**
  
 ### Membuat kecepatan wifi benar benar berfungsi seperti aslinya :
 
@@ -251,7 +277,11 @@ Anda harus memasangnya kembali, atau menutup tutupnya selama sekitar lima detik 
 
 ### Airplay
 
-Tidak berfungsi airplay di Mac OS Bigsur
+Fitur airplay tidak berfungsi di MacOS Bigsur
+
+### Tombol Kunci FN 
+
+Tidak semua tombol kunci FN berfungsi, seperti FN + F8 dan FN + F9
  
 ### ℹ️ Informasi System :
 
