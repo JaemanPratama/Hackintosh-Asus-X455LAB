@@ -203,6 +203,8 @@ Tekan **F2**
 
 ### 2. Catatan Pengguna Wifi Atheros :
 
+### Kenapa Wifi Saya Tidak Berfungsi?
+
 <details>
 <summary>MacOS Monterey</summary>
 
@@ -217,23 +219,8 @@ Tekan **F2**
 #### download Kext di video youtube ini https://www.youtube.com/watch?v=RBszAlDaK84 Dan Pasang Menggunakan KextUtility 
 </details>
 
-### Legalitas Hackintosh :
-
-Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
-
-Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
-
-
-## :man_facepalming: **Masalah Luar Biasa**
-
-### Membuat touchpad dan keyboard benar benar berfungsi :
-
-~~Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.~~
-
-Masalah Terselesaikan \
-**Dengan mengedit info.plist pada kext appleps2smarttouchpad**
- 
 ### Membuat kecepatan wifi benar benar berfungsi seperti aslinya :
+
 
 Setelah Wifi bekerja di mesin saya, masalah terbesar bagi saya adalah membuat kecepatan wifi benar-benar berfungsi seperti aslinya.</summary>
 
@@ -250,6 +237,33 @@ Sinyal bar di bigsur lemah
 
 Solusi Terbaik adalah dengan membeli dongle Wi-Fi USB atau kartu nirkabel yang didukung
 </details>
+
+### Airplay
+
+Fitur airplay tidak berfungsi di MacOS Bigsur
+
+<details>
+<summary>Lebih Lanjut</summary>
+Hanya berfungsi di MacOS Mojave dan Catalina
+</details>
+
+### 3. Legalitas Hackintosh :
+
+Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
+
+> Jika Anda menggunakan EFI ini untuk penggunaan komersial atau publik, Anda dapat ditangkap oleh lembaga penegak hukum setempat atau dituntut oleh Apple Inc. **EFI ini hanya untuk penggunaan pendidikan**.
+
+
+## :man_facepalming: **Masalah Luar Biasa**
+
+### Membuat touchpad dan keyboard benar benar berfungsi :
+
+~~Saya telah memperhatikan masalah ini akhir-akhir ini di mana touchpad dan keyboard berhenti bekerja (not respond), Lalu saat layar laptop tidur akan kembali touchpad tombol akan bekerja kembali. Masih mencoba mencari solusi di luar sana.~~
+
+Masalah Terselesaikan \
+**Dengan mengedit info.plist pada kext appleps2smarttouchpad**
+ 
+
  
 ### Memaksakan mematikan bluetooth :
 Saya telah berjuang untuk waktu yang lama agar Bluetooth berfungsi di laptop ini. Hal yang akhirnya berhasil bagi saya adalah menambahkan Kext Ath3BT.kext dan IOath3kfrmwr.kext Tetapi jika terlalu memaksakan Mematikan Bluetooth di Prefensi System itu akan membuat bluetooth tidak terdeteksi solusinya adalah membuat laptop tidur dan itu akan membuat bluetooth bekerja kembali
@@ -277,9 +291,6 @@ di Bluetooth PrefPane.
 Masalah Terselesaikan \
 Diperbaiki Pada EFI OC BigSur Release
 
-### Airplay
-
-Fitur airplay tidak berfungsi di MacOS Bigsur
 
 ### Tombol Kunci FN 
 
