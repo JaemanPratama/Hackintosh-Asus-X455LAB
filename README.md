@@ -273,7 +273,10 @@ di Bluetooth PrefPane.
 
 ### HDMI mungkin tidak berfungsi saat pertama kali Anda mencolokkannya
 
-Anda harus memasangnya kembali, atau menutup tutupnya selama sekitar lima detik dan membuka kembali tutupnya
+~~Anda harus memasangnya kembali, atau menutup tutupnya selama sekitar lima detik dan membuka kembali tutupnya~~
+
+Masalah Terselesaikan \
+Diperbaiki Pada EFI OC BigSur Release
 
 ### Airplay
 
