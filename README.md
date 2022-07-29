@@ -203,7 +203,7 @@ Tekan **F2**
 
 ### 2. Catatan Pengguna Wifi Atheros :
 
-### Kenapa Wifi Saya Tidak Berfungsi?
+**Kenapa Wifi Saya Tidak Berfungsi ?**
 
 <details>
 <summary>MacOS Monterey</summary>
@@ -247,7 +247,39 @@ Fitur airplay tidak berfungsi di MacOS Bigsur
 Hanya berfungsi di MacOS Mojave dan Catalina
 </details>
 
-### 3. Legalitas Hackintosh :
+### 3. Masalah Tidur Dan Hibernasi :
+
+**Otomatis Bangun Sendiri dari Tidur:**
+
+
+```
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+```
+
+**Masalah Hibernasi:**
+
+```
+sudo pmset hibernatemode 25
+sudo pmset standby 0
+```
+
+**Mengembalikan Nilai Tidur Seperti Aslinya:**
+
+```
+sudo pmset hibernatemode 3
+```
+
+### 4. Mengaktifkan Trim Pada SSD :
+
+```
+sudo trimforce enable
+```
+
+### 5. Legalitas Hackintosh :
 
 Menurut Apple Inc., menggunakan EFI ini untuk menjalankan macOS atau OSX pada komputer non-Apple yang dikenal sebagai "Hackintosh" adalah ilegal, menurut [Digital Millenium Copyright Act](https://www.copyright.gov/dmca/). Selain itu, membuat komputer "Hackintosh" melanggar [Software License Agreement](https://www.apple.com/legal/sla/docs/macOSMonterey.pdf) atau sistem operasi apa pun dalam System OSX.
 
