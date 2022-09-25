@@ -121,7 +121,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Airdrop                              | ❌   | Tidak berfungsi dengan wifi atheros. |
 | Gesture MacOS                        | ❌   | Terjebak pada emulasi mouse. |
 | Pembaca Kartu                        | ❌   | Tidak diuji. |
-| Port VGA                             | ❌   | Tidak diuji. |
+| Port VGA                             | ✅   | Telah Teruji. |
 
 
 
