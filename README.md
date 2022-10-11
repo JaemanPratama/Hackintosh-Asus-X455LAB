@@ -143,9 +143,11 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 - `Direkomendasikan`
   - Bagi Pengguna wifi atheros bar menu wifi hanya menunjukkan  sinyal wifi lemah
 - [x] Monterey (Tested, Opencore, Olarila Installer) 
-- `Tidak Direkomendasikan`
+- `Direkomendasikan`
   - Bagi Pengguna wifi atheros, wifi/bluetooth sudah tidak berjalan ( End Of Live )
   - Solusinya dengan mengganti kartu nirkabel yang didukung seperti wifi intel atau dongle wifi
+- [x] Ventura (End Support)
+- `CPU Generasi broadwell sudah tidak didukung lagi`
 
 
 
