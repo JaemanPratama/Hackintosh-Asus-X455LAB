@@ -106,7 +106,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | Papan Ketik bawaan     | ✅  | `ApplePS2SmartTouchPad.kext` |
 | Multimedia Keys        | ✅  | `AsusFnKeys.kext`, `SSDT-HCK.aml`, `Patch OC`|
 
-### 🔆 macOS Continuity :
+### 🔆 Fitur Fitur Eksklusif macOS :
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
