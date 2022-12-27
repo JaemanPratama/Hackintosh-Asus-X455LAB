@@ -113,6 +113,7 @@ GUNAKAN DENGAN RISIKO ANDA SENDIRI !
 | iCloud, iMessage, FaceTime           | ✅   | ID Apple yang Masuk Daftar Putih, SMBIOS yang Valid  |
 | Time Machine                         | ✅   | Bawaan  |
 | Night Vission                        | ✅   | Bawaan  |
+| Hibernate                            | ✅   | Patch OC |
 
 ### ☹️ Tidak Berfungsi :
 
